@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<driverManifest>
+	<driver
+		id="{D5E0B14D-CD20-4ABC-91B5-67DA92F3A452}"
+		name="Homeworks QS Driver"
+		author="Carson Eisenach"
+		copyright="Carson Eisenach 2016"
+		deviceManufacturer="lutron"
+		deviceModel="lutron"
+		driverVersion="1.5"
+		minimumRuntimeVersion="1"		
+		minimumSoftwareVersion="9.7"
+		processorType="XP-8"
+		configSettingsStream="ConfigSettings.xml"
+	    systemEventsStream="SystemEvents.xml"
+	    systemFunctionsStream="SystemFunctions.xml"
+	    systemVariablesStream="SystemVariables.xml"
+		helpTextStream="instructions.rtf">
+		<processorScript stream="lutron_commands.js" />
+		<package>
+			<output filename="homeworks_qs" public="false"/>
+			<description>
+				A Better Homeworks QS Driver
+			</description>
+		</package>
+	</driver>
+</driverManifest>

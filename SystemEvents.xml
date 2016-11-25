@@ -1,0 +1,894 @@
+<events>
+	<category name="Device %%Device1%%" condition="$NumDevices >= 1">
+	   <event name="Enable" tag="Device1_enable" />
+	   <event name="Disable" tag="Device1_disable" />
+	   <event name="Press/Close/Occupied" tag="Device1_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device1_release" />
+	   <event name="Hold" tag="Device1_hold" />
+	   <event name="Multi Tap" tag="Device1_multitap" />
+	   <event name="Hold/Release" tag="Device1_holdrelease" />
+	</category>
+	<category name="Device %%Device2%%" condition="$NumDevices >= 2">
+	   <event name="Enable" tag="Device2_enable" />
+	   <event name="Disable" tag="Device2_disable" />
+	   <event name="Press/Close/Occupied" tag="Device2_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device2_release" />
+	   <event name="Hold" tag="Device2_hold" />
+	   <event name="Multi Tap" tag="Device2_multitap" />
+	   <event name="Hold/Release" tag="Device2_holdrelease" />
+	</category>
+	<category name="Device %%Device3%%" condition="$NumDevices >= 3">
+	   <event name="Enable" tag="Device3_enable" />
+	   <event name="Disable" tag="Device3_disable" />
+	   <event name="Press/Close/Occupied" tag="Device3_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device3_release" />
+	   <event name="Hold" tag="Device3_hold" />
+	   <event name="Multi Tap" tag="Device3_multitap" />
+	   <event name="Hold/Release" tag="Device3_holdrelease" />
+	</category>
+	<category name="Device %%Device4%%" condition="$NumDevices >= 4">
+	   <event name="Enable" tag="Device4_enable" />
+	   <event name="Disable" tag="Device4_disable" />
+	   <event name="Press/Close/Occupied" tag="Device4_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device4_release" />
+	   <event name="Hold" tag="Device4_hold" />
+	   <event name="Multi Tap" tag="Device4_multitap" />
+	   <event name="Hold/Release" tag="Device4_holdrelease" />
+	</category>
+	<category name="Device %%Device5%%" condition="$NumDevices >= 5">
+	   <event name="Enable" tag="Device5_enable" />
+	   <event name="Disable" tag="Device5_disable" />
+	   <event name="Press/Close/Occupied" tag="Device5_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device5_release" />
+	   <event name="Hold" tag="Device5_hold" />
+	   <event name="Multi Tap" tag="Device5_multitap" />
+	   <event name="Hold/Release" tag="Device5_holdrelease" />
+	</category>
+	<category name="Device %%Device6%%" condition="$NumDevices >= 6">
+	   <event name="Enable" tag="Device6_enable" />
+	   <event name="Disable" tag="Device6_disable" />
+	   <event name="Press/Close/Occupied" tag="Device6_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device6_release" />
+	   <event name="Hold" tag="Device6_hold" />
+	   <event name="Multi Tap" tag="Device6_multitap" />
+	   <event name="Hold/Release" tag="Device6_holdrelease" />
+	</category>
+	<category name="Device %%Device7%%" condition="$NumDevices >= 7">
+	   <event name="Enable" tag="Device7_enable" />
+	   <event name="Disable" tag="Device7_disable" />
+	   <event name="Press/Close/Occupied" tag="Device7_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device7_release" />
+	   <event name="Hold" tag="Device7_hold" />
+	   <event name="Multi Tap" tag="Device7_multitap" />
+	   <event name="Hold/Release" tag="Device7_holdrelease" />
+	</category>
+	<category name="Device %%Device8%%" condition="$NumDevices >= 8">
+	   <event name="Enable" tag="Device8_enable" />
+	   <event name="Disable" tag="Device8_disable" />
+	   <event name="Press/Close/Occupied" tag="Device8_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device8_release" />
+	   <event name="Hold" tag="Device8_hold" />
+	   <event name="Multi Tap" tag="Device8_multitap" />
+	   <event name="Hold/Release" tag="Device8_holdrelease" />
+	</category>
+	<category name="Device %%Device9%%" condition="$NumDevices >= 9">
+	   <event name="Enable" tag="Device9_enable" />
+	   <event name="Disable" tag="Device9_disable" />
+	   <event name="Press/Close/Occupied" tag="Device9_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device9_release" />
+	   <event name="Hold" tag="Device9_hold" />
+	   <event name="Multi Tap" tag="Device9_multitap" />
+	   <event name="Hold/Release" tag="Device9_holdrelease" />
+	</category>
+	<category name="Device %%Device10%%" condition="$NumDevices >= 10">
+	   <event name="Enable" tag="Device10_enable" />
+	   <event name="Disable" tag="Device10_disable" />
+	   <event name="Press/Close/Occupied" tag="Device10_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device10_release" />
+	   <event name="Hold" tag="Device10_hold" />
+	   <event name="Multi Tap" tag="Device10_multitap" />
+	   <event name="Hold/Release" tag="Device10_holdrelease" />
+	</category>
+	<category name="Device %%Device11%%" condition="$NumDevices >= 11">
+	   <event name="Enable" tag="Device11_enable" />
+	   <event name="Disable" tag="Device11_disable" />
+	   <event name="Press/Close/Occupied" tag="Device11_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device11_release" />
+	   <event name="Hold" tag="Device11_hold" />
+	   <event name="Multi Tap" tag="Device11_multitap" />
+	   <event name="Hold/Release" tag="Device11_holdrelease" />
+	</category>
+	<category name="Device %%Device12%%" condition="$NumDevices >= 12">
+	   <event name="Enable" tag="Device12_enable" />
+	   <event name="Disable" tag="Device12_disable" />
+	   <event name="Press/Close/Occupied" tag="Device12_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device12_release" />
+	   <event name="Hold" tag="Device12_hold" />
+	   <event name="Multi Tap" tag="Device12_multitap" />
+	   <event name="Hold/Release" tag="Device12_holdrelease" />
+	</category>
+	<category name="Device %%Device13%%" condition="$NumDevices >= 13">
+	   <event name="Enable" tag="Device13_enable" />
+	   <event name="Disable" tag="Device13_disable" />
+	   <event name="Press/Close/Occupied" tag="Device13_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device13_release" />
+	   <event name="Hold" tag="Device13_hold" />
+	   <event name="Multi Tap" tag="Device13_multitap" />
+	   <event name="Hold/Release" tag="Device13_holdrelease" />
+	</category>
+	<category name="Device %%Device14%%" condition="$NumDevices >= 14">
+	   <event name="Enable" tag="Device14_enable" />
+	   <event name="Disable" tag="Device14_disable" />
+	   <event name="Press/Close/Occupied" tag="Device14_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device14_release" />
+	   <event name="Hold" tag="Device14_hold" />
+	   <event name="Multi Tap" tag="Device14_multitap" />
+	   <event name="Hold/Release" tag="Device14_holdrelease" />
+	</category>
+	<category name="Device %%Device15%%" condition="$NumDevices >= 15">
+	   <event name="Enable" tag="Device15_enable" />
+	   <event name="Disable" tag="Device15_disable" />
+	   <event name="Press/Close/Occupied" tag="Device15_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device15_release" />
+	   <event name="Hold" tag="Device15_hold" />
+	   <event name="Multi Tap" tag="Device15_multitap" />
+	   <event name="Hold/Release" tag="Device15_holdrelease" />
+	</category>
+	<category name="Device %%Device16%%" condition="$NumDevices >= 16">
+	   <event name="Enable" tag="Device16_enable" />
+	   <event name="Disable" tag="Device16_disable" />
+	   <event name="Press/Close/Occupied" tag="Device16_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device16_release" />
+	   <event name="Hold" tag="Device16_hold" />
+	   <event name="Multi Tap" tag="Device16_multitap" />
+	   <event name="Hold/Release" tag="Device16_holdrelease" />
+	</category>
+	<category name="Device %%Device17%%" condition="$NumDevices >= 17">
+	   <event name="Enable" tag="Device17_enable" />
+	   <event name="Disable" tag="Device17_disable" />
+	   <event name="Press/Close/Occupied" tag="Device17_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device17_release" />
+	   <event name="Hold" tag="Device17_hold" />
+	   <event name="Multi Tap" tag="Device17_multitap" />
+	   <event name="Hold/Release" tag="Device17_holdrelease" />
+	</category>
+	<category name="Device %%Device18%%" condition="$NumDevices >= 18">
+	   <event name="Enable" tag="Device18_enable" />
+	   <event name="Disable" tag="Device18_disable" />
+	   <event name="Press/Close/Occupied" tag="Device18_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device18_release" />
+	   <event name="Hold" tag="Device18_hold" />
+	   <event name="Multi Tap" tag="Device18_multitap" />
+	   <event name="Hold/Release" tag="Device18_holdrelease" />
+	</category>
+	<category name="Device %%Device19%%" condition="$NumDevices >= 19">
+	   <event name="Enable" tag="Device19_enable" />
+	   <event name="Disable" tag="Device19_disable" />
+	   <event name="Press/Close/Occupied" tag="Device19_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device19_release" />
+	   <event name="Hold" tag="Device19_hold" />
+	   <event name="Multi Tap" tag="Device19_multitap" />
+	   <event name="Hold/Release" tag="Device19_holdrelease" />
+	</category>
+	<category name="Device %%Device20%%" condition="$NumDevices >= 20">
+	   <event name="Enable" tag="Device20_enable" />
+	   <event name="Disable" tag="Device20_disable" />
+	   <event name="Press/Close/Occupied" tag="Device20_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device20_release" />
+	   <event name="Hold" tag="Device20_hold" />
+	   <event name="Multi Tap" tag="Device20_multitap" />
+	   <event name="Hold/Release" tag="Device20_holdrelease" />
+	</category>
+	<category name="Device %%Device21%%" condition="$NumDevices >= 21">
+	   <event name="Enable" tag="Device21_enable" />
+	   <event name="Disable" tag="Device21_disable" />
+	   <event name="Press/Close/Occupied" tag="Device21_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device21_release" />
+	   <event name="Hold" tag="Device21_hold" />
+	   <event name="Multi Tap" tag="Device21_multitap" />
+	   <event name="Hold/Release" tag="Device21_holdrelease" />
+	</category>
+	<category name="Device %%Device22%%" condition="$NumDevices >= 22">
+	   <event name="Enable" tag="Device22_enable" />
+	   <event name="Disable" tag="Device22_disable" />
+	   <event name="Press/Close/Occupied" tag="Device22_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device22_release" />
+	   <event name="Hold" tag="Device22_hold" />
+	   <event name="Multi Tap" tag="Device22_multitap" />
+	   <event name="Hold/Release" tag="Device22_holdrelease" />
+	</category>
+	<category name="Device %%Device23%%" condition="$NumDevices >= 23">
+	   <event name="Enable" tag="Device23_enable" />
+	   <event name="Disable" tag="Device23_disable" />
+	   <event name="Press/Close/Occupied" tag="Device23_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device23_release" />
+	   <event name="Hold" tag="Device23_hold" />
+	   <event name="Multi Tap" tag="Device23_multitap" />
+	   <event name="Hold/Release" tag="Device23_holdrelease" />
+	</category>
+	<category name="Device %%Device24%%" condition="$NumDevices >= 24">
+	   <event name="Enable" tag="Device24_enable" />
+	   <event name="Disable" tag="Device24_disable" />
+	   <event name="Press/Close/Occupied" tag="Device24_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device24_release" />
+	   <event name="Hold" tag="Device24_hold" />
+	   <event name="Multi Tap" tag="Device24_multitap" />
+	   <event name="Hold/Release" tag="Device24_holdrelease" />
+	</category>
+	<category name="Device %%Device25%%" condition="$NumDevices >= 25">
+	   <event name="Enable" tag="Device25_enable" />
+	   <event name="Disable" tag="Device25_disable" />
+	   <event name="Press/Close/Occupied" tag="Device25_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device25_release" />
+	   <event name="Hold" tag="Device25_hold" />
+	   <event name="Multi Tap" tag="Device25_multitap" />
+	   <event name="Hold/Release" tag="Device25_holdrelease" />
+	</category>
+	<category name="Device %%Device26%%" condition="$NumDevices >= 26">
+	   <event name="Enable" tag="Device26_enable" />
+	   <event name="Disable" tag="Device26_disable" />
+	   <event name="Press/Close/Occupied" tag="Device26_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device26_release" />
+	   <event name="Hold" tag="Device26_hold" />
+	   <event name="Multi Tap" tag="Device26_multitap" />
+	   <event name="Hold/Release" tag="Device26_holdrelease" />
+	</category>
+	<category name="Device %%Device27%%" condition="$NumDevices >= 27">
+	   <event name="Enable" tag="Device27_enable" />
+	   <event name="Disable" tag="Device27_disable" />
+	   <event name="Press/Close/Occupied" tag="Device27_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device27_release" />
+	   <event name="Hold" tag="Device27_hold" />
+	   <event name="Multi Tap" tag="Device27_multitap" />
+	   <event name="Hold/Release" tag="Device27_holdrelease" />
+	</category>
+	<category name="Device %%Device28%%" condition="$NumDevices >= 28">
+	   <event name="Enable" tag="Device28_enable" />
+	   <event name="Disable" tag="Device28_disable" />
+	   <event name="Press/Close/Occupied" tag="Device28_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device28_release" />
+	   <event name="Hold" tag="Device28_hold" />
+	   <event name="Multi Tap" tag="Device28_multitap" />
+	   <event name="Hold/Release" tag="Device28_holdrelease" />
+	</category>
+	<category name="Device %%Device29%%" condition="$NumDevices >= 29">
+	   <event name="Enable" tag="Device29_enable" />
+	   <event name="Disable" tag="Device29_disable" />
+	   <event name="Press/Close/Occupied" tag="Device29_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device29_release" />
+	   <event name="Hold" tag="Device29_hold" />
+	   <event name="Multi Tap" tag="Device29_multitap" />
+	   <event name="Hold/Release" tag="Device29_holdrelease" />
+	</category>
+	<category name="Device %%Device30%%" condition="$NumDevices >= 30">
+	   <event name="Enable" tag="Device30_enable" />
+	   <event name="Disable" tag="Device30_disable" />
+	   <event name="Press/Close/Occupied" tag="Device30_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device30_release" />
+	   <event name="Hold" tag="Device30_hold" />
+	   <event name="Multi Tap" tag="Device30_multitap" />
+	   <event name="Hold/Release" tag="Device30_holdrelease" />
+	</category>
+	<category name="Device %%Device31%%" condition="$NumDevices >= 31">
+	   <event name="Enable" tag="Device31_enable" />
+	   <event name="Disable" tag="Device31_disable" />
+	   <event name="Press/Close/Occupied" tag="Device31_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device31_release" />
+	   <event name="Hold" tag="Device31_hold" />
+	   <event name="Multi Tap" tag="Device31_multitap" />
+	   <event name="Hold/Release" tag="Device31_holdrelease" />
+	</category>
+	<category name="Device %%Device32%%" condition="$NumDevices >= 32">
+	   <event name="Enable" tag="Device32_enable" />
+	   <event name="Disable" tag="Device32_disable" />
+	   <event name="Press/Close/Occupied" tag="Device32_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device32_release" />
+	   <event name="Hold" tag="Device32_hold" />
+	   <event name="Multi Tap" tag="Device32_multitap" />
+	   <event name="Hold/Release" tag="Device32_holdrelease" />
+	</category>
+	<category name="Device %%Device33%%" condition="$NumDevices >= 33">
+	   <event name="Enable" tag="Device33_enable" />
+	   <event name="Disable" tag="Device33_disable" />
+	   <event name="Press/Close/Occupied" tag="Device33_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device33_release" />
+	   <event name="Hold" tag="Device33_hold" />
+	   <event name="Multi Tap" tag="Device33_multitap" />
+	   <event name="Hold/Release" tag="Device33_holdrelease" />
+	</category>
+	<category name="Device %%Device34%%" condition="$NumDevices >= 34">
+	   <event name="Enable" tag="Device34_enable" />
+	   <event name="Disable" tag="Device34_disable" />
+	   <event name="Press/Close/Occupied" tag="Device34_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device34_release" />
+	   <event name="Hold" tag="Device34_hold" />
+	   <event name="Multi Tap" tag="Device34_multitap" />
+	   <event name="Hold/Release" tag="Device34_holdrelease" />
+	</category>
+	<category name="Device %%Device35%%" condition="$NumDevices >= 35">
+	   <event name="Enable" tag="Device35_enable" />
+	   <event name="Disable" tag="Device35_disable" />
+	   <event name="Press/Close/Occupied" tag="Device35_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device35_release" />
+	   <event name="Hold" tag="Device35_hold" />
+	   <event name="Multi Tap" tag="Device35_multitap" />
+	   <event name="Hold/Release" tag="Device35_holdrelease" />
+	</category>
+	<category name="Device %%Device36%%" condition="$NumDevices >= 36">
+	   <event name="Enable" tag="Device36_enable" />
+	   <event name="Disable" tag="Device36_disable" />
+	   <event name="Press/Close/Occupied" tag="Device36_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device36_release" />
+	   <event name="Hold" tag="Device36_hold" />
+	   <event name="Multi Tap" tag="Device36_multitap" />
+	   <event name="Hold/Release" tag="Device36_holdrelease" />
+	</category>
+	<category name="Device %%Device37%%" condition="$NumDevices >= 37">
+	   <event name="Enable" tag="Device37_enable" />
+	   <event name="Disable" tag="Device37_disable" />
+	   <event name="Press/Close/Occupied" tag="Device37_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device37_release" />
+	   <event name="Hold" tag="Device37_hold" />
+	   <event name="Multi Tap" tag="Device37_multitap" />
+	   <event name="Hold/Release" tag="Device37_holdrelease" />
+	</category>
+	<category name="Device %%Device38%%" condition="$NumDevices >= 38">
+	   <event name="Enable" tag="Device38_enable" />
+	   <event name="Disable" tag="Device38_disable" />
+	   <event name="Press/Close/Occupied" tag="Device38_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device38_release" />
+	   <event name="Hold" tag="Device38_hold" />
+	   <event name="Multi Tap" tag="Device38_multitap" />
+	   <event name="Hold/Release" tag="Device38_holdrelease" />
+	</category>
+	<category name="Device %%Device39%%" condition="$NumDevices >= 39">
+	   <event name="Enable" tag="Device39_enable" />
+	   <event name="Disable" tag="Device39_disable" />
+	   <event name="Press/Close/Occupied" tag="Device39_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device39_release" />
+	   <event name="Hold" tag="Device39_hold" />
+	   <event name="Multi Tap" tag="Device39_multitap" />
+	   <event name="Hold/Release" tag="Device39_holdrelease" />
+	</category>
+	<category name="Device %%Device40%%" condition="$NumDevices >= 40">
+	   <event name="Enable" tag="Device40_enable" />
+	   <event name="Disable" tag="Device40_disable" />
+	   <event name="Press/Close/Occupied" tag="Device40_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device40_release" />
+	   <event name="Hold" tag="Device40_hold" />
+	   <event name="Multi Tap" tag="Device40_multitap" />
+	   <event name="Hold/Release" tag="Device40_holdrelease" />
+	</category>
+	<category name="Device %%Device41%%" condition="$NumDevices >= 41">
+	   <event name="Enable" tag="Device41_enable" />
+	   <event name="Disable" tag="Device41_disable" />
+	   <event name="Press/Close/Occupied" tag="Device41_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device41_release" />
+	   <event name="Hold" tag="Device41_hold" />
+	   <event name="Multi Tap" tag="Device41_multitap" />
+	   <event name="Hold/Release" tag="Device41_holdrelease" />
+	</category>
+	<category name="Device %%Device42%%" condition="$NumDevices >= 42">
+	   <event name="Enable" tag="Device42_enable" />
+	   <event name="Disable" tag="Device42_disable" />
+	   <event name="Press/Close/Occupied" tag="Device42_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device42_release" />
+	   <event name="Hold" tag="Device42_hold" />
+	   <event name="Multi Tap" tag="Device42_multitap" />
+	   <event name="Hold/Release" tag="Device42_holdrelease" />
+	</category>
+	<category name="Device %%Device43%%" condition="$NumDevices >= 43">
+	   <event name="Enable" tag="Device43_enable" />
+	   <event name="Disable" tag="Device43_disable" />
+	   <event name="Press/Close/Occupied" tag="Device43_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device43_release" />
+	   <event name="Hold" tag="Device43_hold" />
+	   <event name="Multi Tap" tag="Device43_multitap" />
+	   <event name="Hold/Release" tag="Device43_holdrelease" />
+	</category>
+	<category name="Device %%Device44%%" condition="$NumDevices >= 44">
+	   <event name="Enable" tag="Device44_enable" />
+	   <event name="Disable" tag="Device44_disable" />
+	   <event name="Press/Close/Occupied" tag="Device44_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device44_release" />
+	   <event name="Hold" tag="Device44_hold" />
+	   <event name="Multi Tap" tag="Device44_multitap" />
+	   <event name="Hold/Release" tag="Device44_holdrelease" />
+	</category>
+	<category name="Device %%Device45%%" condition="$NumDevices >= 45">
+	   <event name="Enable" tag="Device45_enable" />
+	   <event name="Disable" tag="Device45_disable" />
+	   <event name="Press/Close/Occupied" tag="Device45_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device45_release" />
+	   <event name="Hold" tag="Device45_hold" />
+	   <event name="Multi Tap" tag="Device45_multitap" />
+	   <event name="Hold/Release" tag="Device45_holdrelease" />
+	</category>
+	<category name="Device %%Device46%%" condition="$NumDevices >= 46">
+	   <event name="Enable" tag="Device46_enable" />
+	   <event name="Disable" tag="Device46_disable" />
+	   <event name="Press/Close/Occupied" tag="Device46_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device46_release" />
+	   <event name="Hold" tag="Device46_hold" />
+	   <event name="Multi Tap" tag="Device46_multitap" />
+	   <event name="Hold/Release" tag="Device46_holdrelease" />
+	</category>
+	<category name="Device %%Device47%%" condition="$NumDevices >= 47">
+	   <event name="Enable" tag="Device47_enable" />
+	   <event name="Disable" tag="Device47_disable" />
+	   <event name="Press/Close/Occupied" tag="Device47_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device47_release" />
+	   <event name="Hold" tag="Device47_hold" />
+	   <event name="Multi Tap" tag="Device47_multitap" />
+	   <event name="Hold/Release" tag="Device47_holdrelease" />
+	</category>
+	<category name="Device %%Device48%%" condition="$NumDevices >= 48">
+	   <event name="Enable" tag="Device48_enable" />
+	   <event name="Disable" tag="Device48_disable" />
+	   <event name="Press/Close/Occupied" tag="Device48_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device48_release" />
+	   <event name="Hold" tag="Device48_hold" />
+	   <event name="Multi Tap" tag="Device48_multitap" />
+	   <event name="Hold/Release" tag="Device48_holdrelease" />
+	</category>
+	<category name="Device %%Device49%%" condition="$NumDevices >= 49">
+	   <event name="Enable" tag="Device49_enable" />
+	   <event name="Disable" tag="Device49_disable" />
+	   <event name="Press/Close/Occupied" tag="Device49_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device49_release" />
+	   <event name="Hold" tag="Device49_hold" />
+	   <event name="Multi Tap" tag="Device49_multitap" />
+	   <event name="Hold/Release" tag="Device49_holdrelease" />
+	</category>
+	<category name="Device %%Device50%%" condition="$NumDevices >= 50">
+	   <event name="Enable" tag="Device50_enable" />
+	   <event name="Disable" tag="Device50_disable" />
+	   <event name="Press/Close/Occupied" tag="Device50_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device50_release" />
+	   <event name="Hold" tag="Device50_hold" />
+	   <event name="Multi Tap" tag="Device50_multitap" />
+	   <event name="Hold/Release" tag="Device50_holdrelease" />
+	</category>
+	<category name="Device %%Device51%%" condition="$NumDevices >= 51">
+	   <event name="Enable" tag="Device51_enable" />
+	   <event name="Disable" tag="Device51_disable" />
+	   <event name="Press/Close/Occupied" tag="Device51_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device51_release" />
+	   <event name="Hold" tag="Device51_hold" />
+	   <event name="Multi Tap" tag="Device51_multitap" />
+	   <event name="Hold/Release" tag="Device51_holdrelease" />
+	</category>
+	<category name="Device %%Device52%%" condition="$NumDevices >= 52">
+	   <event name="Enable" tag="Device52_enable" />
+	   <event name="Disable" tag="Device52_disable" />
+	   <event name="Press/Close/Occupied" tag="Device52_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device52_release" />
+	   <event name="Hold" tag="Device52_hold" />
+	   <event name="Multi Tap" tag="Device52_multitap" />
+	   <event name="Hold/Release" tag="Device52_holdrelease" />
+	</category>
+	<category name="Device %%Device53%%" condition="$NumDevices >= 53">
+	   <event name="Enable" tag="Device53_enable" />
+	   <event name="Disable" tag="Device53_disable" />
+	   <event name="Press/Close/Occupied" tag="Device53_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device53_release" />
+	   <event name="Hold" tag="Device53_hold" />
+	   <event name="Multi Tap" tag="Device53_multitap" />
+	   <event name="Hold/Release" tag="Device53_holdrelease" />
+	</category>
+	<category name="Device %%Device54%%" condition="$NumDevices >= 54">
+	   <event name="Enable" tag="Device54_enable" />
+	   <event name="Disable" tag="Device54_disable" />
+	   <event name="Press/Close/Occupied" tag="Device54_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device54_release" />
+	   <event name="Hold" tag="Device54_hold" />
+	   <event name="Multi Tap" tag="Device54_multitap" />
+	   <event name="Hold/Release" tag="Device54_holdrelease" />
+	</category>
+	<category name="Device %%Device55%%" condition="$NumDevices >= 55">
+	   <event name="Enable" tag="Device55_enable" />
+	   <event name="Disable" tag="Device55_disable" />
+	   <event name="Press/Close/Occupied" tag="Device55_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device55_release" />
+	   <event name="Hold" tag="Device55_hold" />
+	   <event name="Multi Tap" tag="Device55_multitap" />
+	   <event name="Hold/Release" tag="Device55_holdrelease" />
+	</category>
+	<category name="Device %%Device56%%" condition="$NumDevices >= 56">
+	   <event name="Enable" tag="Device56_enable" />
+	   <event name="Disable" tag="Device56_disable" />
+	   <event name="Press/Close/Occupied" tag="Device56_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device56_release" />
+	   <event name="Hold" tag="Device56_hold" />
+	   <event name="Multi Tap" tag="Device56_multitap" />
+	   <event name="Hold/Release" tag="Device56_holdrelease" />
+	</category>
+	<category name="Device %%Device57%%" condition="$NumDevices >= 57">
+	   <event name="Enable" tag="Device57_enable" />
+	   <event name="Disable" tag="Device57_disable" />
+	   <event name="Press/Close/Occupied" tag="Device57_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device57_release" />
+	   <event name="Hold" tag="Device57_hold" />
+	   <event name="Multi Tap" tag="Device57_multitap" />
+	   <event name="Hold/Release" tag="Device57_holdrelease" />
+	</category>
+	<category name="Device %%Device58%%" condition="$NumDevices >= 58">
+	   <event name="Enable" tag="Device58_enable" />
+	   <event name="Disable" tag="Device58_disable" />
+	   <event name="Press/Close/Occupied" tag="Device58_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device58_release" />
+	   <event name="Hold" tag="Device58_hold" />
+	   <event name="Multi Tap" tag="Device58_multitap" />
+	   <event name="Hold/Release" tag="Device58_holdrelease" />
+	</category>
+	<category name="Device %%Device59%%" condition="$NumDevices >= 59">
+	   <event name="Enable" tag="Device59_enable" />
+	   <event name="Disable" tag="Device59_disable" />
+	   <event name="Press/Close/Occupied" tag="Device59_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device59_release" />
+	   <event name="Hold" tag="Device59_hold" />
+	   <event name="Multi Tap" tag="Device59_multitap" />
+	   <event name="Hold/Release" tag="Device59_holdrelease" />
+	</category>
+	<category name="Device %%Device60%%" condition="$NumDevices >= 60">
+	   <event name="Enable" tag="Device60_enable" />
+	   <event name="Disable" tag="Device60_disable" />
+	   <event name="Press/Close/Occupied" tag="Device60_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device60_release" />
+	   <event name="Hold" tag="Device60_hold" />
+	   <event name="Multi Tap" tag="Device60_multitap" />
+	   <event name="Hold/Release" tag="Device60_holdrelease" />
+	</category>
+	<category name="Device %%Device61%%" condition="$NumDevices >= 61">
+	   <event name="Enable" tag="Device61_enable" />
+	   <event name="Disable" tag="Device61_disable" />
+	   <event name="Press/Close/Occupied" tag="Device61_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device61_release" />
+	   <event name="Hold" tag="Device61_hold" />
+	   <event name="Multi Tap" tag="Device61_multitap" />
+	   <event name="Hold/Release" tag="Device61_holdrelease" />
+	</category>
+	<category name="Device %%Device62%%" condition="$NumDevices >= 62">
+	   <event name="Enable" tag="Device62_enable" />
+	   <event name="Disable" tag="Device62_disable" />
+	   <event name="Press/Close/Occupied" tag="Device62_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device62_release" />
+	   <event name="Hold" tag="Device62_hold" />
+	   <event name="Multi Tap" tag="Device62_multitap" />
+	   <event name="Hold/Release" tag="Device62_holdrelease" />
+	</category>
+	<category name="Device %%Device63%%" condition="$NumDevices >= 63">
+	   <event name="Enable" tag="Device63_enable" />
+	   <event name="Disable" tag="Device63_disable" />
+	   <event name="Press/Close/Occupied" tag="Device63_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device63_release" />
+	   <event name="Hold" tag="Device63_hold" />
+	   <event name="Multi Tap" tag="Device63_multitap" />
+	   <event name="Hold/Release" tag="Device63_holdrelease" />
+	</category>
+	<category name="Device %%Device64%%" condition="$NumDevices >= 64">
+	   <event name="Enable" tag="Device64_enable" />
+	   <event name="Disable" tag="Device64_disable" />
+	   <event name="Press/Close/Occupied" tag="Device64_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device64_release" />
+	   <event name="Hold" tag="Device64_hold" />
+	   <event name="Multi Tap" tag="Device64_multitap" />
+	   <event name="Hold/Release" tag="Device64_holdrelease" />
+	</category>
+	<category name="Device %%Device65%%" condition="$NumDevices >= 65">
+	   <event name="Enable" tag="Device65_enable" />
+	   <event name="Disable" tag="Device65_disable" />
+	   <event name="Press/Close/Occupied" tag="Device65_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device65_release" />
+	   <event name="Hold" tag="Device65_hold" />
+	   <event name="Multi Tap" tag="Device65_multitap" />
+	   <event name="Hold/Release" tag="Device65_holdrelease" />
+	</category>
+	<category name="Device %%Device66%%" condition="$NumDevices >= 66">
+	   <event name="Enable" tag="Device66_enable" />
+	   <event name="Disable" tag="Device66_disable" />
+	   <event name="Press/Close/Occupied" tag="Device66_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device66_release" />
+	   <event name="Hold" tag="Device66_hold" />
+	   <event name="Multi Tap" tag="Device66_multitap" />
+	   <event name="Hold/Release" tag="Device66_holdrelease" />
+	</category>
+	<category name="Device %%Device67%%" condition="$NumDevices >= 67">
+	   <event name="Enable" tag="Device67_enable" />
+	   <event name="Disable" tag="Device67_disable" />
+	   <event name="Press/Close/Occupied" tag="Device67_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device67_release" />
+	   <event name="Hold" tag="Device67_hold" />
+	   <event name="Multi Tap" tag="Device67_multitap" />
+	   <event name="Hold/Release" tag="Device67_holdrelease" />
+	</category>
+	<category name="Device %%Device68%%" condition="$NumDevices >= 68">
+	   <event name="Enable" tag="Device68_enable" />
+	   <event name="Disable" tag="Device68_disable" />
+	   <event name="Press/Close/Occupied" tag="Device68_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device68_release" />
+	   <event name="Hold" tag="Device68_hold" />
+	   <event name="Multi Tap" tag="Device68_multitap" />
+	   <event name="Hold/Release" tag="Device68_holdrelease" />
+	</category>
+	<category name="Device %%Device69%%" condition="$NumDevices >= 69">
+	   <event name="Enable" tag="Device69_enable" />
+	   <event name="Disable" tag="Device69_disable" />
+	   <event name="Press/Close/Occupied" tag="Device69_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device69_release" />
+	   <event name="Hold" tag="Device69_hold" />
+	   <event name="Multi Tap" tag="Device69_multitap" />
+	   <event name="Hold/Release" tag="Device69_holdrelease" />
+	</category>
+	<category name="Device %%Device70%%" condition="$NumDevices >= 70">
+	   <event name="Enable" tag="Device70_enable" />
+	   <event name="Disable" tag="Device70_disable" />
+	   <event name="Press/Close/Occupied" tag="Device70_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device70_release" />
+	   <event name="Hold" tag="Device70_hold" />
+	   <event name="Multi Tap" tag="Device70_multitap" />
+	   <event name="Hold/Release" tag="Device70_holdrelease" />
+	</category>
+	<category name="Device %%Device71%%" condition="$NumDevices >= 71">
+	   <event name="Enable" tag="Device71_enable" />
+	   <event name="Disable" tag="Device71_disable" />
+	   <event name="Press/Close/Occupied" tag="Device71_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device71_release" />
+	   <event name="Hold" tag="Device71_hold" />
+	   <event name="Multi Tap" tag="Device71_multitap" />
+	   <event name="Hold/Release" tag="Device71_holdrelease" />
+	</category>
+	<category name="Device %%Device72%%" condition="$NumDevices >= 72">
+	   <event name="Enable" tag="Device72_enable" />
+	   <event name="Disable" tag="Device72_disable" />
+	   <event name="Press/Close/Occupied" tag="Device72_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device72_release" />
+	   <event name="Hold" tag="Device72_hold" />
+	   <event name="Multi Tap" tag="Device72_multitap" />
+	   <event name="Hold/Release" tag="Device72_holdrelease" />
+	</category>
+	<category name="Device %%Device73%%" condition="$NumDevices >= 73">
+	   <event name="Enable" tag="Device73_enable" />
+	   <event name="Disable" tag="Device73_disable" />
+	   <event name="Press/Close/Occupied" tag="Device73_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device73_release" />
+	   <event name="Hold" tag="Device73_hold" />
+	   <event name="Multi Tap" tag="Device73_multitap" />
+	   <event name="Hold/Release" tag="Device73_holdrelease" />
+	</category>
+	<category name="Device %%Device74%%" condition="$NumDevices >= 74">
+	   <event name="Enable" tag="Device74_enable" />
+	   <event name="Disable" tag="Device74_disable" />
+	   <event name="Press/Close/Occupied" tag="Device74_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device74_release" />
+	   <event name="Hold" tag="Device74_hold" />
+	   <event name="Multi Tap" tag="Device74_multitap" />
+	   <event name="Hold/Release" tag="Device74_holdrelease" />
+	</category>
+	<category name="Device %%Device75%%" condition="$NumDevices >= 75">
+	   <event name="Enable" tag="Device75_enable" />
+	   <event name="Disable" tag="Device75_disable" />
+	   <event name="Press/Close/Occupied" tag="Device75_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device75_release" />
+	   <event name="Hold" tag="Device75_hold" />
+	   <event name="Multi Tap" tag="Device75_multitap" />
+	   <event name="Hold/Release" tag="Device75_holdrelease" />
+	</category>
+	<category name="Device %%Device76%%" condition="$NumDevices >= 76">
+	   <event name="Enable" tag="Device76_enable" />
+	   <event name="Disable" tag="Device76_disable" />
+	   <event name="Press/Close/Occupied" tag="Device76_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device76_release" />
+	   <event name="Hold" tag="Device76_hold" />
+	   <event name="Multi Tap" tag="Device76_multitap" />
+	   <event name="Hold/Release" tag="Device76_holdrelease" />
+	</category>
+	<category name="Device %%Device77%%" condition="$NumDevices >= 77">
+	   <event name="Enable" tag="Device77_enable" />
+	   <event name="Disable" tag="Device77_disable" />
+	   <event name="Press/Close/Occupied" tag="Device77_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device77_release" />
+	   <event name="Hold" tag="Device77_hold" />
+	   <event name="Multi Tap" tag="Device77_multitap" />
+	   <event name="Hold/Release" tag="Device77_holdrelease" />
+	</category>
+	<category name="Device %%Device78%%" condition="$NumDevices >= 78">
+	   <event name="Enable" tag="Device78_enable" />
+	   <event name="Disable" tag="Device78_disable" />
+	   <event name="Press/Close/Occupied" tag="Device78_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device78_release" />
+	   <event name="Hold" tag="Device78_hold" />
+	   <event name="Multi Tap" tag="Device78_multitap" />
+	   <event name="Hold/Release" tag="Device78_holdrelease" />
+	</category>
+	<category name="Device %%Device79%%" condition="$NumDevices >= 79">
+	   <event name="Enable" tag="Device79_enable" />
+	   <event name="Disable" tag="Device79_disable" />
+	   <event name="Press/Close/Occupied" tag="Device79_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device79_release" />
+	   <event name="Hold" tag="Device79_hold" />
+	   <event name="Multi Tap" tag="Device79_multitap" />
+	   <event name="Hold/Release" tag="Device79_holdrelease" />
+	</category>
+	<category name="Device %%Device80%%" condition="$NumDevices >= 80">
+	   <event name="Enable" tag="Device80_enable" />
+	   <event name="Disable" tag="Device80_disable" />
+	   <event name="Press/Close/Occupied" tag="Device80_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device80_release" />
+	   <event name="Hold" tag="Device80_hold" />
+	   <event name="Multi Tap" tag="Device80_multitap" />
+	   <event name="Hold/Release" tag="Device80_holdrelease" />
+	</category>
+	<category name="Device %%Device81%%" condition="$NumDevices >= 81">
+	   <event name="Enable" tag="Device81_enable" />
+	   <event name="Disable" tag="Device81_disable" />
+	   <event name="Press/Close/Occupied" tag="Device81_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device81_release" />
+	   <event name="Hold" tag="Device81_hold" />
+	   <event name="Multi Tap" tag="Device81_multitap" />
+	   <event name="Hold/Release" tag="Device81_holdrelease" />
+	</category>
+	<category name="Device %%Device82%%" condition="$NumDevices >= 82">
+	   <event name="Enable" tag="Device82_enable" />
+	   <event name="Disable" tag="Device82_disable" />
+	   <event name="Press/Close/Occupied" tag="Device82_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device82_release" />
+	   <event name="Hold" tag="Device82_hold" />
+	   <event name="Multi Tap" tag="Device82_multitap" />
+	   <event name="Hold/Release" tag="Device82_holdrelease" />
+	</category>
+	<category name="Device %%Device83%%" condition="$NumDevices >= 83">
+	   <event name="Enable" tag="Device83_enable" />
+	   <event name="Disable" tag="Device83_disable" />
+	   <event name="Press/Close/Occupied" tag="Device83_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device83_release" />
+	   <event name="Hold" tag="Device83_hold" />
+	   <event name="Multi Tap" tag="Device83_multitap" />
+	   <event name="Hold/Release" tag="Device83_holdrelease" />
+	</category>
+	<category name="Device %%Device84%%" condition="$NumDevices >= 84">
+	   <event name="Enable" tag="Device84_enable" />
+	   <event name="Disable" tag="Device84_disable" />
+	   <event name="Press/Close/Occupied" tag="Device84_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device84_release" />
+	   <event name="Hold" tag="Device84_hold" />
+	   <event name="Multi Tap" tag="Device84_multitap" />
+	   <event name="Hold/Release" tag="Device84_holdrelease" />
+	</category>
+	<category name="Device %%Device85%%" condition="$NumDevices >= 85">
+	   <event name="Enable" tag="Device85_enable" />
+	   <event name="Disable" tag="Device85_disable" />
+	   <event name="Press/Close/Occupied" tag="Device85_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device85_release" />
+	   <event name="Hold" tag="Device85_hold" />
+	   <event name="Multi Tap" tag="Device85_multitap" />
+	   <event name="Hold/Release" tag="Device85_holdrelease" />
+	</category>
+	<category name="Device %%Device86%%" condition="$NumDevices >= 86">
+	   <event name="Enable" tag="Device86_enable" />
+	   <event name="Disable" tag="Device86_disable" />
+	   <event name="Press/Close/Occupied" tag="Device86_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device86_release" />
+	   <event name="Hold" tag="Device86_hold" />
+	   <event name="Multi Tap" tag="Device86_multitap" />
+	   <event name="Hold/Release" tag="Device86_holdrelease" />
+	</category>
+	<category name="Device %%Device87%%" condition="$NumDevices >= 87">
+	   <event name="Enable" tag="Device87_enable" />
+	   <event name="Disable" tag="Device87_disable" />
+	   <event name="Press/Close/Occupied" tag="Device87_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device87_release" />
+	   <event name="Hold" tag="Device87_hold" />
+	   <event name="Multi Tap" tag="Device87_multitap" />
+	   <event name="Hold/Release" tag="Device87_holdrelease" />
+	</category>
+	<category name="Device %%Device88%%" condition="$NumDevices >= 88">
+	   <event name="Enable" tag="Device88_enable" />
+	   <event name="Disable" tag="Device88_disable" />
+	   <event name="Press/Close/Occupied" tag="Device88_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device88_release" />
+	   <event name="Hold" tag="Device88_hold" />
+	   <event name="Multi Tap" tag="Device88_multitap" />
+	   <event name="Hold/Release" tag="Device88_holdrelease" />
+	</category>
+	<category name="Device %%Device89%%" condition="$NumDevices >= 89">
+	   <event name="Enable" tag="Device89_enable" />
+	   <event name="Disable" tag="Device89_disable" />
+	   <event name="Press/Close/Occupied" tag="Device89_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device89_release" />
+	   <event name="Hold" tag="Device89_hold" />
+	   <event name="Multi Tap" tag="Device89_multitap" />
+	   <event name="Hold/Release" tag="Device89_holdrelease" />
+	</category>
+	<category name="Device %%Device90%%" condition="$NumDevices >= 90">
+	   <event name="Enable" tag="Device90_enable" />
+	   <event name="Disable" tag="Device90_disable" />
+	   <event name="Press/Close/Occupied" tag="Device90_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device90_release" />
+	   <event name="Hold" tag="Device90_hold" />
+	   <event name="Multi Tap" tag="Device90_multitap" />
+	   <event name="Hold/Release" tag="Device90_holdrelease" />
+	</category>
+	<category name="Device %%Device91%%" condition="$NumDevices >= 91">
+	   <event name="Enable" tag="Device91_enable" />
+	   <event name="Disable" tag="Device91_disable" />
+	   <event name="Press/Close/Occupied" tag="Device91_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device91_release" />
+	   <event name="Hold" tag="Device91_hold" />
+	   <event name="Multi Tap" tag="Device91_multitap" />
+	   <event name="Hold/Release" tag="Device91_holdrelease" />
+	</category>
+	<category name="Device %%Device92%%" condition="$NumDevices >= 92">
+	   <event name="Enable" tag="Device92_enable" />
+	   <event name="Disable" tag="Device92_disable" />
+	   <event name="Press/Close/Occupied" tag="Device92_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device92_release" />
+	   <event name="Hold" tag="Device92_hold" />
+	   <event name="Multi Tap" tag="Device92_multitap" />
+	   <event name="Hold/Release" tag="Device92_holdrelease" />
+	</category>
+	<category name="Device %%Device93%%" condition="$NumDevices >= 93">
+	   <event name="Enable" tag="Device93_enable" />
+	   <event name="Disable" tag="Device93_disable" />
+	   <event name="Press/Close/Occupied" tag="Device93_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device93_release" />
+	   <event name="Hold" tag="Device93_hold" />
+	   <event name="Multi Tap" tag="Device93_multitap" />
+	   <event name="Hold/Release" tag="Device93_holdrelease" />
+	</category>
+	<category name="Device %%Device94%%" condition="$NumDevices >= 94">
+	   <event name="Enable" tag="Device94_enable" />
+	   <event name="Disable" tag="Device94_disable" />
+	   <event name="Press/Close/Occupied" tag="Device94_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device94_release" />
+	   <event name="Hold" tag="Device94_hold" />
+	   <event name="Multi Tap" tag="Device94_multitap" />
+	   <event name="Hold/Release" tag="Device94_holdrelease" />
+	</category>
+	<category name="Device %%Device95%%" condition="$NumDevices >= 95">
+	   <event name="Enable" tag="Device95_enable" />
+	   <event name="Disable" tag="Device95_disable" />
+	   <event name="Press/Close/Occupied" tag="Device95_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device95_release" />
+	   <event name="Hold" tag="Device95_hold" />
+	   <event name="Multi Tap" tag="Device95_multitap" />
+	   <event name="Hold/Release" tag="Device95_holdrelease" />
+	</category>
+	<category name="Device %%Device96%%" condition="$NumDevices >= 96">
+	   <event name="Enable" tag="Device96_enable" />
+	   <event name="Disable" tag="Device96_disable" />
+	   <event name="Press/Close/Occupied" tag="Device96_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device96_release" />
+	   <event name="Hold" tag="Device96_hold" />
+	   <event name="Multi Tap" tag="Device96_multitap" />
+	   <event name="Hold/Release" tag="Device96_holdrelease" />
+	</category>
+	<category name="Device %%Device97%%" condition="$NumDevices >= 97">
+	   <event name="Enable" tag="Device97_enable" />
+	   <event name="Disable" tag="Device97_disable" />
+	   <event name="Press/Close/Occupied" tag="Device97_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device97_release" />
+	   <event name="Hold" tag="Device97_hold" />
+	   <event name="Multi Tap" tag="Device97_multitap" />
+	   <event name="Hold/Release" tag="Device97_holdrelease" />
+	</category>
+	<category name="Device %%Device98%%" condition="$NumDevices >= 98">
+	   <event name="Enable" tag="Device98_enable" />
+	   <event name="Disable" tag="Device98_disable" />
+	   <event name="Press/Close/Occupied" tag="Device98_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device98_release" />
+	   <event name="Hold" tag="Device98_hold" />
+	   <event name="Multi Tap" tag="Device98_multitap" />
+	   <event name="Hold/Release" tag="Device98_holdrelease" />
+	</category>
+	<category name="Device %%Device99%%" condition="$NumDevices >= 99">
+	   <event name="Enable" tag="Device99_enable" />
+	   <event name="Disable" tag="Device99_disable" />
+	   <event name="Press/Close/Occupied" tag="Device99_press" />
+	   <event name="Release/Open/Unoccupied" tag="Device99_release" />
+	   <event name="Hold" tag="Device99_hold" />
+	   <event name="Multi Tap" tag="Device99_multitap" />
+	   <event name="Hold/Release" tag="Device99_holdrelease" />
+	</category>
+
+</events>

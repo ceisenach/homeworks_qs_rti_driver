@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<functions>
+	<category name="Set Keypad LEDs">
+		<function name="%%Device1%% LED - On" export="SetLEDIntegration:Device1_On" repeatrate="0" condition="$NumDevices >= 1" >
+		        <parameter name="DeviceID" type="string" default="%%Device1%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device1%% LED - Off" export="SetLEDIntegration:Device1_Off" repeatrate="0" condition="$NumDevices >= 1" >
+		        <parameter name="DeviceID" type="string" default="%%Device1%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device2%% LED - On" export="SetLEDIntegration:Device2_On" repeatrate="0" condition="$NumDevices >= 2" >
+		        <parameter name="DeviceID" type="string" default="%%Device2%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device2%% LED - Off" export="SetLEDIntegration:Device2_Off" repeatrate="0" condition="$NumDevices >= 2" >
+		        <parameter name="DeviceID" type="string" default="%%Device2%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device3%% LED - On" export="SetLEDIntegration:Device3_On" repeatrate="0" condition="$NumDevices >= 3" >
+		        <parameter name="DeviceID" type="string" default="%%Device3%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device3%% LED - Off" export="SetLEDIntegration:Device3_Off" repeatrate="0" condition="$NumDevices >= 3" >
+		        <parameter name="DeviceID" type="string" default="%%Device3%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device4%% LED - On" export="SetLEDIntegration:Device4_On" repeatrate="0" condition="$NumDevices >= 4" >
+		        <parameter name="DeviceID" type="string" default="%%Device4%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device4%% LED - Off" export="SetLEDIntegration:Device4_Off" repeatrate="0" condition="$NumDevices >= 4" >
+		        <parameter name="DeviceID" type="string" default="%%Device4%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device5%% LED - On" export="SetLEDIntegration:Device5_On" repeatrate="0" condition="$NumDevices >= 5" >
+		        <parameter name="DeviceID" type="string" default="%%Device5%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device5%% LED - Off" export="SetLEDIntegration:Device5_Off" repeatrate="0" condition="$NumDevices >= 5" >
+		        <parameter name="DeviceID" type="string" default="%%Device5%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device6%% LED - On" export="SetLEDIntegration:Device6_On" repeatrate="0" condition="$NumDevices >= 6" >
+		        <parameter name="DeviceID" type="string" default="%%Device6%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device6%% LED - Off" export="SetLEDIntegration:Device6_Off" repeatrate="0" condition="$NumDevices >= 6" >
+		        <parameter name="DeviceID" type="string" default="%%Device6%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device7%% LED - On" export="SetLEDIntegration:Device7_On" repeatrate="0" condition="$NumDevices >= 7" >
+		        <parameter name="DeviceID" type="string" default="%%Device7%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device7%% LED - Off" export="SetLEDIntegration:Device7_Off" repeatrate="0" condition="$NumDevices >= 7" >
+		        <parameter name="DeviceID" type="string" default="%%Device7%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device8%% LED - On" export="SetLEDIntegration:Device8_On" repeatrate="0" condition="$NumDevices >= 8" >
+		        <parameter name="DeviceID" type="string" default="%%Device8%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device8%% LED - Off" export="SetLEDIntegration:Device8_Off" repeatrate="0" condition="$NumDevices >= 8" >
+		        <parameter name="DeviceID" type="string" default="%%Device8%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device9%% LED - On" export="SetLEDIntegration:Device9_On" repeatrate="0" condition="$NumDevices >= 9" >
+		        <parameter name="DeviceID" type="string" default="%%Device9%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device9%% LED - Off" export="SetLEDIntegration:Device9_Off" repeatrate="0" condition="$NumDevices >= 9" >
+		        <parameter name="DeviceID" type="string" default="%%Device9%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device10%% LED - On" export="SetLEDIntegration:Device10_On" repeatrate="0" condition="$NumDevices >= 10" >
+		        <parameter name="DeviceID" type="string" default="%%Device10%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device10%% LED - Off" export="SetLEDIntegration:Device10_Off" repeatrate="0" condition="$NumDevices >= 10" >
+		        <parameter name="DeviceID" type="string" default="%%Device10%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device11%% LED - On" export="SetLEDIntegration:Device11_On" repeatrate="0" condition="$NumDevices >= 11" >
+		        <parameter name="DeviceID" type="string" default="%%Device11%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device11%% LED - Off" export="SetLEDIntegration:Device11_Off" repeatrate="0" condition="$NumDevices >= 11" >
+		        <parameter name="DeviceID" type="string" default="%%Device11%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device12%% LED - On" export="SetLEDIntegration:Device12_On" repeatrate="0" condition="$NumDevices >= 12" >
+		        <parameter name="DeviceID" type="string" default="%%Device12%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device12%% LED - Off" export="SetLEDIntegration:Device12_Off" repeatrate="0" condition="$NumDevices >= 12" >
+		        <parameter name="DeviceID" type="string" default="%%Device12%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device13%% LED - On" export="SetLEDIntegration:Device13_On" repeatrate="0" condition="$NumDevices >= 13" >
+		        <parameter name="DeviceID" type="string" default="%%Device13%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device13%% LED - Off" export="SetLEDIntegration:Device13_Off" repeatrate="0" condition="$NumDevices >= 13" >
+		        <parameter name="DeviceID" type="string" default="%%Device13%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device14%% LED - On" export="SetLEDIntegration:Device14_On" repeatrate="0" condition="$NumDevices >= 14" >
+		        <parameter name="DeviceID" type="string" default="%%Device14%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device14%% LED - Off" export="SetLEDIntegration:Device14_Off" repeatrate="0" condition="$NumDevices >= 14" >
+		        <parameter name="DeviceID" type="string" default="%%Device14%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device15%% LED - On" export="SetLEDIntegration:Device15_On" repeatrate="0" condition="$NumDevices >= 15" >
+		        <parameter name="DeviceID" type="string" default="%%Device15%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device15%% LED - Off" export="SetLEDIntegration:Device15_Off" repeatrate="0" condition="$NumDevices >= 15" >
+		        <parameter name="DeviceID" type="string" default="%%Device15%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device16%% LED - On" export="SetLEDIntegration:Device16_On" repeatrate="0" condition="$NumDevices >= 16" >
+		        <parameter name="DeviceID" type="string" default="%%Device16%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device16%% LED - Off" export="SetLEDIntegration:Device16_Off" repeatrate="0" condition="$NumDevices >= 16" >
+		        <parameter name="DeviceID" type="string" default="%%Device16%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device17%% LED - On" export="SetLEDIntegration:Device17_On" repeatrate="0" condition="$NumDevices >= 17" >
+		        <parameter name="DeviceID" type="string" default="%%Device17%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device17%% LED - Off" export="SetLEDIntegration:Device17_Off" repeatrate="0" condition="$NumDevices >= 17" >
+		        <parameter name="DeviceID" type="string" default="%%Device17%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device18%% LED - On" export="SetLEDIntegration:Device18_On" repeatrate="0" condition="$NumDevices >= 18" >
+		        <parameter name="DeviceID" type="string" default="%%Device18%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device18%% LED - Off" export="SetLEDIntegration:Device18_Off" repeatrate="0" condition="$NumDevices >= 18" >
+		        <parameter name="DeviceID" type="string" default="%%Device18%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device19%% LED - On" export="SetLEDIntegration:Device19_On" repeatrate="0" condition="$NumDevices >= 19" >
+		        <parameter name="DeviceID" type="string" default="%%Device19%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device19%% LED - Off" export="SetLEDIntegration:Device19_Off" repeatrate="0" condition="$NumDevices >= 19" >
+		        <parameter name="DeviceID" type="string" default="%%Device19%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device20%% LED - On" export="SetLEDIntegration:Device20_On" repeatrate="0" condition="$NumDevices >= 20" >
+		        <parameter name="DeviceID" type="string" default="%%Device20%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device20%% LED - Off" export="SetLEDIntegration:Device20_Off" repeatrate="0" condition="$NumDevices >= 20" >
+		        <parameter name="DeviceID" type="string" default="%%Device20%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device21%% LED - On" export="SetLEDIntegration:Device21_On" repeatrate="0" condition="$NumDevices >= 21" >
+		        <parameter name="DeviceID" type="string" default="%%Device21%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device21%% LED - Off" export="SetLEDIntegration:Device21_Off" repeatrate="0" condition="$NumDevices >= 21" >
+		        <parameter name="DeviceID" type="string" default="%%Device21%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device22%% LED - On" export="SetLEDIntegration:Device22_On" repeatrate="0" condition="$NumDevices >= 22" >
+		        <parameter name="DeviceID" type="string" default="%%Device22%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device22%% LED - Off" export="SetLEDIntegration:Device22_Off" repeatrate="0" condition="$NumDevices >= 22" >
+		        <parameter name="DeviceID" type="string" default="%%Device22%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device23%% LED - On" export="SetLEDIntegration:Device23_On" repeatrate="0" condition="$NumDevices >= 23" >
+		        <parameter name="DeviceID" type="string" default="%%Device23%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device23%% LED - Off" export="SetLEDIntegration:Device23_Off" repeatrate="0" condition="$NumDevices >= 23" >
+		        <parameter name="DeviceID" type="string" default="%%Device23%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device24%% LED - On" export="SetLEDIntegration:Device24_On" repeatrate="0" condition="$NumDevices >= 24" >
+		        <parameter name="DeviceID" type="string" default="%%Device24%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device24%% LED - Off" export="SetLEDIntegration:Device24_Off" repeatrate="0" condition="$NumDevices >= 24" >
+		        <parameter name="DeviceID" type="string" default="%%Device24%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device25%% LED - On" export="SetLEDIntegration:Device25_On" repeatrate="0" condition="$NumDevices >= 25" >
+		        <parameter name="DeviceID" type="string" default="%%Device25%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device25%% LED - Off" export="SetLEDIntegration:Device25_Off" repeatrate="0" condition="$NumDevices >= 25" >
+		        <parameter name="DeviceID" type="string" default="%%Device25%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device26%% LED - On" export="SetLEDIntegration:Device26_On" repeatrate="0" condition="$NumDevices >= 26" >
+		        <parameter name="DeviceID" type="string" default="%%Device26%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device26%% LED - Off" export="SetLEDIntegration:Device26_Off" repeatrate="0" condition="$NumDevices >= 26" >
+		        <parameter name="DeviceID" type="string" default="%%Device26%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device27%% LED - On" export="SetLEDIntegration:Device27_On" repeatrate="0" condition="$NumDevices >= 27" >
+		        <parameter name="DeviceID" type="string" default="%%Device27%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device27%% LED - Off" export="SetLEDIntegration:Device27_Off" repeatrate="0" condition="$NumDevices >= 27" >
+		        <parameter name="DeviceID" type="string" default="%%Device27%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device28%% LED - On" export="SetLEDIntegration:Device28_On" repeatrate="0" condition="$NumDevices >= 28" >
+		        <parameter name="DeviceID" type="string" default="%%Device28%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device28%% LED - Off" export="SetLEDIntegration:Device28_Off" repeatrate="0" condition="$NumDevices >= 28" >
+		        <parameter name="DeviceID" type="string" default="%%Device28%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device29%% LED - On" export="SetLEDIntegration:Device29_On" repeatrate="0" condition="$NumDevices >= 29" >
+		        <parameter name="DeviceID" type="string" default="%%Device29%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device29%% LED - Off" export="SetLEDIntegration:Device29_Off" repeatrate="0" condition="$NumDevices >= 29" >
+		        <parameter name="DeviceID" type="string" default="%%Device29%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device30%% LED - On" export="SetLEDIntegration:Device30_On" repeatrate="0" condition="$NumDevices >= 30" >
+		        <parameter name="DeviceID" type="string" default="%%Device30%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device30%% LED - Off" export="SetLEDIntegration:Device30_Off" repeatrate="0" condition="$NumDevices >= 30" >
+		        <parameter name="DeviceID" type="string" default="%%Device30%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device31%% LED - On" export="SetLEDIntegration:Device31_On" repeatrate="0" condition="$NumDevices >= 31" >
+		        <parameter name="DeviceID" type="string" default="%%Device31%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device31%% LED - Off" export="SetLEDIntegration:Device31_Off" repeatrate="0" condition="$NumDevices >= 31" >
+		        <parameter name="DeviceID" type="string" default="%%Device31%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device32%% LED - On" export="SetLEDIntegration:Device32_On" repeatrate="0" condition="$NumDevices >= 32" >
+		        <parameter name="DeviceID" type="string" default="%%Device32%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device32%% LED - Off" export="SetLEDIntegration:Device32_Off" repeatrate="0" condition="$NumDevices >= 32" >
+		        <parameter name="DeviceID" type="string" default="%%Device32%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device33%% LED - On" export="SetLEDIntegration:Device33_On" repeatrate="0" condition="$NumDevices >= 33" >
+		        <parameter name="DeviceID" type="string" default="%%Device33%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device33%% LED - Off" export="SetLEDIntegration:Device33_Off" repeatrate="0" condition="$NumDevices >= 33" >
+		        <parameter name="DeviceID" type="string" default="%%Device33%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device34%% LED - On" export="SetLEDIntegration:Device34_On" repeatrate="0" condition="$NumDevices >= 34" >
+		        <parameter name="DeviceID" type="string" default="%%Device34%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device34%% LED - Off" export="SetLEDIntegration:Device34_Off" repeatrate="0" condition="$NumDevices >= 34" >
+		        <parameter name="DeviceID" type="string" default="%%Device34%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device35%% LED - On" export="SetLEDIntegration:Device35_On" repeatrate="0" condition="$NumDevices >= 35" >
+		        <parameter name="DeviceID" type="string" default="%%Device35%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device35%% LED - Off" export="SetLEDIntegration:Device35_Off" repeatrate="0" condition="$NumDevices >= 35" >
+		        <parameter name="DeviceID" type="string" default="%%Device35%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device36%% LED - On" export="SetLEDIntegration:Device36_On" repeatrate="0" condition="$NumDevices >= 36" >
+		        <parameter name="DeviceID" type="string" default="%%Device36%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device36%% LED - Off" export="SetLEDIntegration:Device36_Off" repeatrate="0" condition="$NumDevices >= 36" >
+		        <parameter name="DeviceID" type="string" default="%%Device36%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device37%% LED - On" export="SetLEDIntegration:Device37_On" repeatrate="0" condition="$NumDevices >= 37" >
+		        <parameter name="DeviceID" type="string" default="%%Device37%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device37%% LED - Off" export="SetLEDIntegration:Device37_Off" repeatrate="0" condition="$NumDevices >= 37" >
+		        <parameter name="DeviceID" type="string" default="%%Device37%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device38%% LED - On" export="SetLEDIntegration:Device38_On" repeatrate="0" condition="$NumDevices >= 38" >
+		        <parameter name="DeviceID" type="string" default="%%Device38%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device38%% LED - Off" export="SetLEDIntegration:Device38_Off" repeatrate="0" condition="$NumDevices >= 38" >
+		        <parameter name="DeviceID" type="string" default="%%Device38%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device39%% LED - On" export="SetLEDIntegration:Device39_On" repeatrate="0" condition="$NumDevices >= 39" >
+		        <parameter name="DeviceID" type="string" default="%%Device39%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device39%% LED - Off" export="SetLEDIntegration:Device39_Off" repeatrate="0" condition="$NumDevices >= 39" >
+		        <parameter name="DeviceID" type="string" default="%%Device39%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device40%% LED - On" export="SetLEDIntegration:Device40_On" repeatrate="0" condition="$NumDevices >= 40" >
+		        <parameter name="DeviceID" type="string" default="%%Device40%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device40%% LED - Off" export="SetLEDIntegration:Device40_Off" repeatrate="0" condition="$NumDevices >= 40" >
+		        <parameter name="DeviceID" type="string" default="%%Device40%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device41%% LED - On" export="SetLEDIntegration:Device41_On" repeatrate="0" condition="$NumDevices >= 41" >
+		        <parameter name="DeviceID" type="string" default="%%Device41%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device41%% LED - Off" export="SetLEDIntegration:Device41_Off" repeatrate="0" condition="$NumDevices >= 41" >
+		        <parameter name="DeviceID" type="string" default="%%Device41%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device42%% LED - On" export="SetLEDIntegration:Device42_On" repeatrate="0" condition="$NumDevices >= 42" >
+		        <parameter name="DeviceID" type="string" default="%%Device42%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device42%% LED - Off" export="SetLEDIntegration:Device42_Off" repeatrate="0" condition="$NumDevices >= 42" >
+		        <parameter name="DeviceID" type="string" default="%%Device42%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device43%% LED - On" export="SetLEDIntegration:Device43_On" repeatrate="0" condition="$NumDevices >= 43" >
+		        <parameter name="DeviceID" type="string" default="%%Device43%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device43%% LED - Off" export="SetLEDIntegration:Device43_Off" repeatrate="0" condition="$NumDevices >= 43" >
+		        <parameter name="DeviceID" type="string" default="%%Device43%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device44%% LED - On" export="SetLEDIntegration:Device44_On" repeatrate="0" condition="$NumDevices >= 44" >
+		        <parameter name="DeviceID" type="string" default="%%Device44%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device44%% LED - Off" export="SetLEDIntegration:Device44_Off" repeatrate="0" condition="$NumDevices >= 44" >
+		        <parameter name="DeviceID" type="string" default="%%Device44%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device45%% LED - On" export="SetLEDIntegration:Device45_On" repeatrate="0" condition="$NumDevices >= 45" >
+		        <parameter name="DeviceID" type="string" default="%%Device45%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device45%% LED - Off" export="SetLEDIntegration:Device45_Off" repeatrate="0" condition="$NumDevices >= 45" >
+		        <parameter name="DeviceID" type="string" default="%%Device45%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device46%% LED - On" export="SetLEDIntegration:Device46_On" repeatrate="0" condition="$NumDevices >= 46" >
+		        <parameter name="DeviceID" type="string" default="%%Device46%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device46%% LED - Off" export="SetLEDIntegration:Device46_Off" repeatrate="0" condition="$NumDevices >= 46" >
+		        <parameter name="DeviceID" type="string" default="%%Device46%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device47%% LED - On" export="SetLEDIntegration:Device47_On" repeatrate="0" condition="$NumDevices >= 47" >
+		        <parameter name="DeviceID" type="string" default="%%Device47%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device47%% LED - Off" export="SetLEDIntegration:Device47_Off" repeatrate="0" condition="$NumDevices >= 47" >
+		        <parameter name="DeviceID" type="string" default="%%Device47%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device48%% LED - On" export="SetLEDIntegration:Device48_On" repeatrate="0" condition="$NumDevices >= 48" >
+		        <parameter name="DeviceID" type="string" default="%%Device48%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device48%% LED - Off" export="SetLEDIntegration:Device48_Off" repeatrate="0" condition="$NumDevices >= 48" >
+		        <parameter name="DeviceID" type="string" default="%%Device48%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device49%% LED - On" export="SetLEDIntegration:Device49_On" repeatrate="0" condition="$NumDevices >= 49" >
+		        <parameter name="DeviceID" type="string" default="%%Device49%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device49%% LED - Off" export="SetLEDIntegration:Device49_Off" repeatrate="0" condition="$NumDevices >= 49" >
+		        <parameter name="DeviceID" type="string" default="%%Device49%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device50%% LED - On" export="SetLEDIntegration:Device50_On" repeatrate="0" condition="$NumDevices >= 50" >
+		        <parameter name="DeviceID" type="string" default="%%Device50%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device50%% LED - Off" export="SetLEDIntegration:Device50_Off" repeatrate="0" condition="$NumDevices >= 50" >
+		        <parameter name="DeviceID" type="string" default="%%Device50%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device51%% LED - On" export="SetLEDIntegration:Device51_On" repeatrate="0" condition="$NumDevices >= 51" >
+		        <parameter name="DeviceID" type="string" default="%%Device51%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device51%% LED - Off" export="SetLEDIntegration:Device51_Off" repeatrate="0" condition="$NumDevices >= 51" >
+		        <parameter name="DeviceID" type="string" default="%%Device51%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device52%% LED - On" export="SetLEDIntegration:Device52_On" repeatrate="0" condition="$NumDevices >= 52" >
+		        <parameter name="DeviceID" type="string" default="%%Device52%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device52%% LED - Off" export="SetLEDIntegration:Device52_Off" repeatrate="0" condition="$NumDevices >= 52" >
+		        <parameter name="DeviceID" type="string" default="%%Device52%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device53%% LED - On" export="SetLEDIntegration:Device53_On" repeatrate="0" condition="$NumDevices >= 53" >
+		        <parameter name="DeviceID" type="string" default="%%Device53%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device53%% LED - Off" export="SetLEDIntegration:Device53_Off" repeatrate="0" condition="$NumDevices >= 53" >
+		        <parameter name="DeviceID" type="string" default="%%Device53%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device54%% LED - On" export="SetLEDIntegration:Device54_On" repeatrate="0" condition="$NumDevices >= 54" >
+		        <parameter name="DeviceID" type="string" default="%%Device54%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device54%% LED - Off" export="SetLEDIntegration:Device54_Off" repeatrate="0" condition="$NumDevices >= 54" >
+		        <parameter name="DeviceID" type="string" default="%%Device54%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device55%% LED - On" export="SetLEDIntegration:Device55_On" repeatrate="0" condition="$NumDevices >= 55" >
+		        <parameter name="DeviceID" type="string" default="%%Device55%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device55%% LED - Off" export="SetLEDIntegration:Device55_Off" repeatrate="0" condition="$NumDevices >= 55" >
+		        <parameter name="DeviceID" type="string" default="%%Device55%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device56%% LED - On" export="SetLEDIntegration:Device56_On" repeatrate="0" condition="$NumDevices >= 56" >
+		        <parameter name="DeviceID" type="string" default="%%Device56%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device56%% LED - Off" export="SetLEDIntegration:Device56_Off" repeatrate="0" condition="$NumDevices >= 56" >
+		        <parameter name="DeviceID" type="string" default="%%Device56%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device57%% LED - On" export="SetLEDIntegration:Device57_On" repeatrate="0" condition="$NumDevices >= 57" >
+		        <parameter name="DeviceID" type="string" default="%%Device57%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device57%% LED - Off" export="SetLEDIntegration:Device57_Off" repeatrate="0" condition="$NumDevices >= 57" >
+		        <parameter name="DeviceID" type="string" default="%%Device57%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device58%% LED - On" export="SetLEDIntegration:Device58_On" repeatrate="0" condition="$NumDevices >= 58" >
+		        <parameter name="DeviceID" type="string" default="%%Device58%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device58%% LED - Off" export="SetLEDIntegration:Device58_Off" repeatrate="0" condition="$NumDevices >= 58" >
+		        <parameter name="DeviceID" type="string" default="%%Device58%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device59%% LED - On" export="SetLEDIntegration:Device59_On" repeatrate="0" condition="$NumDevices >= 59" >
+		        <parameter name="DeviceID" type="string" default="%%Device59%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device59%% LED - Off" export="SetLEDIntegration:Device59_Off" repeatrate="0" condition="$NumDevices >= 59" >
+		        <parameter name="DeviceID" type="string" default="%%Device59%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device60%% LED - On" export="SetLEDIntegration:Device60_On" repeatrate="0" condition="$NumDevices >= 60" >
+		        <parameter name="DeviceID" type="string" default="%%Device60%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device60%% LED - Off" export="SetLEDIntegration:Device60_Off" repeatrate="0" condition="$NumDevices >= 60" >
+		        <parameter name="DeviceID" type="string" default="%%Device60%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device61%% LED - On" export="SetLEDIntegration:Device61_On" repeatrate="0" condition="$NumDevices >= 61" >
+		        <parameter name="DeviceID" type="string" default="%%Device61%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device61%% LED - Off" export="SetLEDIntegration:Device61_Off" repeatrate="0" condition="$NumDevices >= 61" >
+		        <parameter name="DeviceID" type="string" default="%%Device61%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device62%% LED - On" export="SetLEDIntegration:Device62_On" repeatrate="0" condition="$NumDevices >= 62" >
+		        <parameter name="DeviceID" type="string" default="%%Device62%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device62%% LED - Off" export="SetLEDIntegration:Device62_Off" repeatrate="0" condition="$NumDevices >= 62" >
+		        <parameter name="DeviceID" type="string" default="%%Device62%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device63%% LED - On" export="SetLEDIntegration:Device63_On" repeatrate="0" condition="$NumDevices >= 63" >
+		        <parameter name="DeviceID" type="string" default="%%Device63%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device63%% LED - Off" export="SetLEDIntegration:Device63_Off" repeatrate="0" condition="$NumDevices >= 63" >
+		        <parameter name="DeviceID" type="string" default="%%Device63%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device64%% LED - On" export="SetLEDIntegration:Device64_On" repeatrate="0" condition="$NumDevices >= 64" >
+		        <parameter name="DeviceID" type="string" default="%%Device64%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device64%% LED - Off" export="SetLEDIntegration:Device64_Off" repeatrate="0" condition="$NumDevices >= 64" >
+		        <parameter name="DeviceID" type="string" default="%%Device64%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device65%% LED - On" export="SetLEDIntegration:Device65_On" repeatrate="0" condition="$NumDevices >= 65" >
+		        <parameter name="DeviceID" type="string" default="%%Device65%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device65%% LED - Off" export="SetLEDIntegration:Device65_Off" repeatrate="0" condition="$NumDevices >= 65" >
+		        <parameter name="DeviceID" type="string" default="%%Device65%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device66%% LED - On" export="SetLEDIntegration:Device66_On" repeatrate="0" condition="$NumDevices >= 66" >
+		        <parameter name="DeviceID" type="string" default="%%Device66%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device66%% LED - Off" export="SetLEDIntegration:Device66_Off" repeatrate="0" condition="$NumDevices >= 66" >
+		        <parameter name="DeviceID" type="string" default="%%Device66%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device67%% LED - On" export="SetLEDIntegration:Device67_On" repeatrate="0" condition="$NumDevices >= 67" >
+		        <parameter name="DeviceID" type="string" default="%%Device67%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device67%% LED - Off" export="SetLEDIntegration:Device67_Off" repeatrate="0" condition="$NumDevices >= 67" >
+		        <parameter name="DeviceID" type="string" default="%%Device67%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device68%% LED - On" export="SetLEDIntegration:Device68_On" repeatrate="0" condition="$NumDevices >= 68" >
+		        <parameter name="DeviceID" type="string" default="%%Device68%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device68%% LED - Off" export="SetLEDIntegration:Device68_Off" repeatrate="0" condition="$NumDevices >= 68" >
+		        <parameter name="DeviceID" type="string" default="%%Device68%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device69%% LED - On" export="SetLEDIntegration:Device69_On" repeatrate="0" condition="$NumDevices >= 69" >
+		        <parameter name="DeviceID" type="string" default="%%Device69%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device69%% LED - Off" export="SetLEDIntegration:Device69_Off" repeatrate="0" condition="$NumDevices >= 69" >
+		        <parameter name="DeviceID" type="string" default="%%Device69%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device70%% LED - On" export="SetLEDIntegration:Device70_On" repeatrate="0" condition="$NumDevices >= 70" >
+		        <parameter name="DeviceID" type="string" default="%%Device70%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device70%% LED - Off" export="SetLEDIntegration:Device70_Off" repeatrate="0" condition="$NumDevices >= 70" >
+		        <parameter name="DeviceID" type="string" default="%%Device70%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device71%% LED - On" export="SetLEDIntegration:Device71_On" repeatrate="0" condition="$NumDevices >= 71" >
+		        <parameter name="DeviceID" type="string" default="%%Device71%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device71%% LED - Off" export="SetLEDIntegration:Device71_Off" repeatrate="0" condition="$NumDevices >= 71" >
+		        <parameter name="DeviceID" type="string" default="%%Device71%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device72%% LED - On" export="SetLEDIntegration:Device72_On" repeatrate="0" condition="$NumDevices >= 72" >
+		        <parameter name="DeviceID" type="string" default="%%Device72%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device72%% LED - Off" export="SetLEDIntegration:Device72_Off" repeatrate="0" condition="$NumDevices >= 72" >
+		        <parameter name="DeviceID" type="string" default="%%Device72%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device73%% LED - On" export="SetLEDIntegration:Device73_On" repeatrate="0" condition="$NumDevices >= 73" >
+		        <parameter name="DeviceID" type="string" default="%%Device73%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device73%% LED - Off" export="SetLEDIntegration:Device73_Off" repeatrate="0" condition="$NumDevices >= 73" >
+		        <parameter name="DeviceID" type="string" default="%%Device73%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device74%% LED - On" export="SetLEDIntegration:Device74_On" repeatrate="0" condition="$NumDevices >= 74" >
+		        <parameter name="DeviceID" type="string" default="%%Device74%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device74%% LED - Off" export="SetLEDIntegration:Device74_Off" repeatrate="0" condition="$NumDevices >= 74" >
+		        <parameter name="DeviceID" type="string" default="%%Device74%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device75%% LED - On" export="SetLEDIntegration:Device75_On" repeatrate="0" condition="$NumDevices >= 75" >
+		        <parameter name="DeviceID" type="string" default="%%Device75%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device75%% LED - Off" export="SetLEDIntegration:Device75_Off" repeatrate="0" condition="$NumDevices >= 75" >
+		        <parameter name="DeviceID" type="string" default="%%Device75%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device76%% LED - On" export="SetLEDIntegration:Device76_On" repeatrate="0" condition="$NumDevices >= 76" >
+		        <parameter name="DeviceID" type="string" default="%%Device76%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device76%% LED - Off" export="SetLEDIntegration:Device76_Off" repeatrate="0" condition="$NumDevices >= 76" >
+		        <parameter name="DeviceID" type="string" default="%%Device76%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device77%% LED - On" export="SetLEDIntegration:Device77_On" repeatrate="0" condition="$NumDevices >= 77" >
+		        <parameter name="DeviceID" type="string" default="%%Device77%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device77%% LED - Off" export="SetLEDIntegration:Device77_Off" repeatrate="0" condition="$NumDevices >= 77" >
+		        <parameter name="DeviceID" type="string" default="%%Device77%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device78%% LED - On" export="SetLEDIntegration:Device78_On" repeatrate="0" condition="$NumDevices >= 78" >
+		        <parameter name="DeviceID" type="string" default="%%Device78%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device78%% LED - Off" export="SetLEDIntegration:Device78_Off" repeatrate="0" condition="$NumDevices >= 78" >
+		        <parameter name="DeviceID" type="string" default="%%Device78%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device79%% LED - On" export="SetLEDIntegration:Device79_On" repeatrate="0" condition="$NumDevices >= 79" >
+		        <parameter name="DeviceID" type="string" default="%%Device79%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device79%% LED - Off" export="SetLEDIntegration:Device79_Off" repeatrate="0" condition="$NumDevices >= 79" >
+		        <parameter name="DeviceID" type="string" default="%%Device79%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device80%% LED - On" export="SetLEDIntegration:Device80_On" repeatrate="0" condition="$NumDevices >= 80" >
+		        <parameter name="DeviceID" type="string" default="%%Device80%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device80%% LED - Off" export="SetLEDIntegration:Device80_Off" repeatrate="0" condition="$NumDevices >= 80" >
+		        <parameter name="DeviceID" type="string" default="%%Device80%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device81%% LED - On" export="SetLEDIntegration:Device81_On" repeatrate="0" condition="$NumDevices >= 81" >
+		        <parameter name="DeviceID" type="string" default="%%Device81%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device81%% LED - Off" export="SetLEDIntegration:Device81_Off" repeatrate="0" condition="$NumDevices >= 81" >
+		        <parameter name="DeviceID" type="string" default="%%Device81%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device82%% LED - On" export="SetLEDIntegration:Device82_On" repeatrate="0" condition="$NumDevices >= 82" >
+		        <parameter name="DeviceID" type="string" default="%%Device82%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device82%% LED - Off" export="SetLEDIntegration:Device82_Off" repeatrate="0" condition="$NumDevices >= 82" >
+		        <parameter name="DeviceID" type="string" default="%%Device82%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device83%% LED - On" export="SetLEDIntegration:Device83_On" repeatrate="0" condition="$NumDevices >= 83" >
+		        <parameter name="DeviceID" type="string" default="%%Device83%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device83%% LED - Off" export="SetLEDIntegration:Device83_Off" repeatrate="0" condition="$NumDevices >= 83" >
+		        <parameter name="DeviceID" type="string" default="%%Device83%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device84%% LED - On" export="SetLEDIntegration:Device84_On" repeatrate="0" condition="$NumDevices >= 84" >
+		        <parameter name="DeviceID" type="string" default="%%Device84%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device84%% LED - Off" export="SetLEDIntegration:Device84_Off" repeatrate="0" condition="$NumDevices >= 84" >
+		        <parameter name="DeviceID" type="string" default="%%Device84%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device85%% LED - On" export="SetLEDIntegration:Device85_On" repeatrate="0" condition="$NumDevices >= 85" >
+		        <parameter name="DeviceID" type="string" default="%%Device85%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device85%% LED - Off" export="SetLEDIntegration:Device85_Off" repeatrate="0" condition="$NumDevices >= 85" >
+		        <parameter name="DeviceID" type="string" default="%%Device85%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device86%% LED - On" export="SetLEDIntegration:Device86_On" repeatrate="0" condition="$NumDevices >= 86" >
+		        <parameter name="DeviceID" type="string" default="%%Device86%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device86%% LED - Off" export="SetLEDIntegration:Device86_Off" repeatrate="0" condition="$NumDevices >= 86" >
+		        <parameter name="DeviceID" type="string" default="%%Device86%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device87%% LED - On" export="SetLEDIntegration:Device87_On" repeatrate="0" condition="$NumDevices >= 87" >
+		        <parameter name="DeviceID" type="string" default="%%Device87%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device87%% LED - Off" export="SetLEDIntegration:Device87_Off" repeatrate="0" condition="$NumDevices >= 87" >
+		        <parameter name="DeviceID" type="string" default="%%Device87%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device88%% LED - On" export="SetLEDIntegration:Device88_On" repeatrate="0" condition="$NumDevices >= 88" >
+		        <parameter name="DeviceID" type="string" default="%%Device88%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device88%% LED - Off" export="SetLEDIntegration:Device88_Off" repeatrate="0" condition="$NumDevices >= 88" >
+		        <parameter name="DeviceID" type="string" default="%%Device88%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device89%% LED - On" export="SetLEDIntegration:Device89_On" repeatrate="0" condition="$NumDevices >= 89" >
+		        <parameter name="DeviceID" type="string" default="%%Device89%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device89%% LED - Off" export="SetLEDIntegration:Device89_Off" repeatrate="0" condition="$NumDevices >= 89" >
+		        <parameter name="DeviceID" type="string" default="%%Device89%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device90%% LED - On" export="SetLEDIntegration:Device90_On" repeatrate="0" condition="$NumDevices >= 90" >
+		        <parameter name="DeviceID" type="string" default="%%Device90%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device90%% LED - Off" export="SetLEDIntegration:Device90_Off" repeatrate="0" condition="$NumDevices >= 90" >
+		        <parameter name="DeviceID" type="string" default="%%Device90%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device91%% LED - On" export="SetLEDIntegration:Device91_On" repeatrate="0" condition="$NumDevices >= 91" >
+		        <parameter name="DeviceID" type="string" default="%%Device91%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device91%% LED - Off" export="SetLEDIntegration:Device91_Off" repeatrate="0" condition="$NumDevices >= 91" >
+		        <parameter name="DeviceID" type="string" default="%%Device91%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device92%% LED - On" export="SetLEDIntegration:Device92_On" repeatrate="0" condition="$NumDevices >= 92" >
+		        <parameter name="DeviceID" type="string" default="%%Device92%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device92%% LED - Off" export="SetLEDIntegration:Device92_Off" repeatrate="0" condition="$NumDevices >= 92" >
+		        <parameter name="DeviceID" type="string" default="%%Device92%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device93%% LED - On" export="SetLEDIntegration:Device93_On" repeatrate="0" condition="$NumDevices >= 93" >
+		        <parameter name="DeviceID" type="string" default="%%Device93%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device93%% LED - Off" export="SetLEDIntegration:Device93_Off" repeatrate="0" condition="$NumDevices >= 93" >
+		        <parameter name="DeviceID" type="string" default="%%Device93%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device94%% LED - On" export="SetLEDIntegration:Device94_On" repeatrate="0" condition="$NumDevices >= 94" >
+		        <parameter name="DeviceID" type="string" default="%%Device94%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device94%% LED - Off" export="SetLEDIntegration:Device94_Off" repeatrate="0" condition="$NumDevices >= 94" >
+		        <parameter name="DeviceID" type="string" default="%%Device94%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device95%% LED - On" export="SetLEDIntegration:Device95_On" repeatrate="0" condition="$NumDevices >= 95" >
+		        <parameter name="DeviceID" type="string" default="%%Device95%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device95%% LED - Off" export="SetLEDIntegration:Device95_Off" repeatrate="0" condition="$NumDevices >= 95" >
+		        <parameter name="DeviceID" type="string" default="%%Device95%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device96%% LED - On" export="SetLEDIntegration:Device96_On" repeatrate="0" condition="$NumDevices >= 96" >
+		        <parameter name="DeviceID" type="string" default="%%Device96%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device96%% LED - Off" export="SetLEDIntegration:Device96_Off" repeatrate="0" condition="$NumDevices >= 96" >
+		        <parameter name="DeviceID" type="string" default="%%Device96%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device97%% LED - On" export="SetLEDIntegration:Device97_On" repeatrate="0" condition="$NumDevices >= 97" >
+		        <parameter name="DeviceID" type="string" default="%%Device97%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device97%% LED - Off" export="SetLEDIntegration:Device97_Off" repeatrate="0" condition="$NumDevices >= 97" >
+		        <parameter name="DeviceID" type="string" default="%%Device97%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device98%% LED - On" export="SetLEDIntegration:Device98_On" repeatrate="0" condition="$NumDevices >= 98" >
+		        <parameter name="DeviceID" type="string" default="%%Device98%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device98%% LED - Off" export="SetLEDIntegration:Device98_Off" repeatrate="0" condition="$NumDevices >= 98" >
+		        <parameter name="DeviceID" type="string" default="%%Device98%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+		<function name="%%Device99%% LED - On" export="SetLEDIntegration:Device99_On" repeatrate="0" condition="$NumDevices >= 99" >
+		        <parameter name="DeviceID" type="string" default="%%Device99%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="1" hidden="true" />
+		</function>
+		<function name="%%Device99%% LED - Off" export="SetLEDIntegration:Device99_Off" repeatrate="0" condition="$NumDevices >= 99" >
+		        <parameter name="DeviceID" type="string" default="%%Device99%%" hidden="true" />
+		        <parameter name="LevelParameter" type="string" default="0" hidden="true" />
+		</function>
+	</category>
+	<category name="LED Status Local State Variables">
+		<function name="Set LED %%Device1%% State Variable to True" export="SetDeviceLEDStateTrue:Device1" repeatrate="0" condition="$NumDevices >= 1" >
+		        <parameter name="DeviceID" type="string" default="%%Device1%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device1%% State Variable to False" export="SetDeviceLEDStateFalse:Device1" repeatrate="0" condition="$NumDevices >= 1" >
+		        <parameter name="DeviceID" type="string" default="%%Device1%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device2%% State Variable to True" export="SetDeviceLEDStateTrue:Device2" repeatrate="0" condition="$NumDevices >= 2" >
+		        <parameter name="DeviceID" type="string" default="%%Device2%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device2%% State Variable to False" export="SetDeviceLEDStateFalse:Device2" repeatrate="0" condition="$NumDevices >= 2" >
+		        <parameter name="DeviceID" type="string" default="%%Device2%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device3%% State Variable to True" export="SetDeviceLEDStateTrue:Device3" repeatrate="0" condition="$NumDevices >= 3" >
+		        <parameter name="DeviceID" type="string" default="%%Device3%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device3%% State Variable to False" export="SetDeviceLEDStateFalse:Device3" repeatrate="0" condition="$NumDevices >= 3" >
+		        <parameter name="DeviceID" type="string" default="%%Device3%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device4%% State Variable to True" export="SetDeviceLEDStateTrue:Device4" repeatrate="0" condition="$NumDevices >= 4" >
+		        <parameter name="DeviceID" type="string" default="%%Device4%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device4%% State Variable to False" export="SetDeviceLEDStateFalse:Device4" repeatrate="0" condition="$NumDevices >= 4" >
+		        <parameter name="DeviceID" type="string" default="%%Device4%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device5%% State Variable to True" export="SetDeviceLEDStateTrue:Device5" repeatrate="0" condition="$NumDevices >= 5" >
+		        <parameter name="DeviceID" type="string" default="%%Device5%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device5%% State Variable to False" export="SetDeviceLEDStateFalse:Device5" repeatrate="0" condition="$NumDevices >= 5" >
+		        <parameter name="DeviceID" type="string" default="%%Device5%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device6%% State Variable to True" export="SetDeviceLEDStateTrue:Device6" repeatrate="0" condition="$NumDevices >= 6" >
+		        <parameter name="DeviceID" type="string" default="%%Device6%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device6%% State Variable to False" export="SetDeviceLEDStateFalse:Device6" repeatrate="0" condition="$NumDevices >= 6" >
+		        <parameter name="DeviceID" type="string" default="%%Device6%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device7%% State Variable to True" export="SetDeviceLEDStateTrue:Device7" repeatrate="0" condition="$NumDevices >= 7" >
+		        <parameter name="DeviceID" type="string" default="%%Device7%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device7%% State Variable to False" export="SetDeviceLEDStateFalse:Device7" repeatrate="0" condition="$NumDevices >= 7" >
+		        <parameter name="DeviceID" type="string" default="%%Device7%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device8%% State Variable to True" export="SetDeviceLEDStateTrue:Device8" repeatrate="0" condition="$NumDevices >= 8" >
+		        <parameter name="DeviceID" type="string" default="%%Device8%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device8%% State Variable to False" export="SetDeviceLEDStateFalse:Device8" repeatrate="0" condition="$NumDevices >= 8" >
+		        <parameter name="DeviceID" type="string" default="%%Device8%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device9%% State Variable to True" export="SetDeviceLEDStateTrue:Device9" repeatrate="0" condition="$NumDevices >= 9" >
+		        <parameter name="DeviceID" type="string" default="%%Device9%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device9%% State Variable to False" export="SetDeviceLEDStateFalse:Device9" repeatrate="0" condition="$NumDevices >= 9" >
+		        <parameter name="DeviceID" type="string" default="%%Device9%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device10%% State Variable to True" export="SetDeviceLEDStateTrue:Device10" repeatrate="0" condition="$NumDevices >= 10" >
+		        <parameter name="DeviceID" type="string" default="%%Device10%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device10%% State Variable to False" export="SetDeviceLEDStateFalse:Device10" repeatrate="0" condition="$NumDevices >= 10" >
+		        <parameter name="DeviceID" type="string" default="%%Device10%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device11%% State Variable to True" export="SetDeviceLEDStateTrue:Device11" repeatrate="0" condition="$NumDevices >= 11" >
+		        <parameter name="DeviceID" type="string" default="%%Device11%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device11%% State Variable to False" export="SetDeviceLEDStateFalse:Device11" repeatrate="0" condition="$NumDevices >= 11" >
+		        <parameter name="DeviceID" type="string" default="%%Device11%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device12%% State Variable to True" export="SetDeviceLEDStateTrue:Device12" repeatrate="0" condition="$NumDevices >= 12" >
+		        <parameter name="DeviceID" type="string" default="%%Device12%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device12%% State Variable to False" export="SetDeviceLEDStateFalse:Device12" repeatrate="0" condition="$NumDevices >= 12" >
+		        <parameter name="DeviceID" type="string" default="%%Device12%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device13%% State Variable to True" export="SetDeviceLEDStateTrue:Device13" repeatrate="0" condition="$NumDevices >= 13" >
+		        <parameter name="DeviceID" type="string" default="%%Device13%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device13%% State Variable to False" export="SetDeviceLEDStateFalse:Device13" repeatrate="0" condition="$NumDevices >= 13" >
+		        <parameter name="DeviceID" type="string" default="%%Device13%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device14%% State Variable to True" export="SetDeviceLEDStateTrue:Device14" repeatrate="0" condition="$NumDevices >= 14" >
+		        <parameter name="DeviceID" type="string" default="%%Device14%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device14%% State Variable to False" export="SetDeviceLEDStateFalse:Device14" repeatrate="0" condition="$NumDevices >= 14" >
+		        <parameter name="DeviceID" type="string" default="%%Device14%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device15%% State Variable to True" export="SetDeviceLEDStateTrue:Device15" repeatrate="0" condition="$NumDevices >= 15" >
+		        <parameter name="DeviceID" type="string" default="%%Device15%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device15%% State Variable to False" export="SetDeviceLEDStateFalse:Device15" repeatrate="0" condition="$NumDevices >= 15" >
+		        <parameter name="DeviceID" type="string" default="%%Device15%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device16%% State Variable to True" export="SetDeviceLEDStateTrue:Device16" repeatrate="0" condition="$NumDevices >= 16" >
+		        <parameter name="DeviceID" type="string" default="%%Device16%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device16%% State Variable to False" export="SetDeviceLEDStateFalse:Device16" repeatrate="0" condition="$NumDevices >= 16" >
+		        <parameter name="DeviceID" type="string" default="%%Device16%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device17%% State Variable to True" export="SetDeviceLEDStateTrue:Device17" repeatrate="0" condition="$NumDevices >= 17" >
+		        <parameter name="DeviceID" type="string" default="%%Device17%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device17%% State Variable to False" export="SetDeviceLEDStateFalse:Device17" repeatrate="0" condition="$NumDevices >= 17" >
+		        <parameter name="DeviceID" type="string" default="%%Device17%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device18%% State Variable to True" export="SetDeviceLEDStateTrue:Device18" repeatrate="0" condition="$NumDevices >= 18" >
+		        <parameter name="DeviceID" type="string" default="%%Device18%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device18%% State Variable to False" export="SetDeviceLEDStateFalse:Device18" repeatrate="0" condition="$NumDevices >= 18" >
+		        <parameter name="DeviceID" type="string" default="%%Device18%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device19%% State Variable to True" export="SetDeviceLEDStateTrue:Device19" repeatrate="0" condition="$NumDevices >= 19" >
+		        <parameter name="DeviceID" type="string" default="%%Device19%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device19%% State Variable to False" export="SetDeviceLEDStateFalse:Device19" repeatrate="0" condition="$NumDevices >= 19" >
+		        <parameter name="DeviceID" type="string" default="%%Device19%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device20%% State Variable to True" export="SetDeviceLEDStateTrue:Device20" repeatrate="0" condition="$NumDevices >= 20" >
+		        <parameter name="DeviceID" type="string" default="%%Device20%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device20%% State Variable to False" export="SetDeviceLEDStateFalse:Device20" repeatrate="0" condition="$NumDevices >= 20" >
+		        <parameter name="DeviceID" type="string" default="%%Device20%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device21%% State Variable to True" export="SetDeviceLEDStateTrue:Device21" repeatrate="0" condition="$NumDevices >= 21" >
+		        <parameter name="DeviceID" type="string" default="%%Device21%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device21%% State Variable to False" export="SetDeviceLEDStateFalse:Device21" repeatrate="0" condition="$NumDevices >= 21" >
+		        <parameter name="DeviceID" type="string" default="%%Device21%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device22%% State Variable to True" export="SetDeviceLEDStateTrue:Device22" repeatrate="0" condition="$NumDevices >= 22" >
+		        <parameter name="DeviceID" type="string" default="%%Device22%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device22%% State Variable to False" export="SetDeviceLEDStateFalse:Device22" repeatrate="0" condition="$NumDevices >= 22" >
+		        <parameter name="DeviceID" type="string" default="%%Device22%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device23%% State Variable to True" export="SetDeviceLEDStateTrue:Device23" repeatrate="0" condition="$NumDevices >= 23" >
+		        <parameter name="DeviceID" type="string" default="%%Device23%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device23%% State Variable to False" export="SetDeviceLEDStateFalse:Device23" repeatrate="0" condition="$NumDevices >= 23" >
+		        <parameter name="DeviceID" type="string" default="%%Device23%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device24%% State Variable to True" export="SetDeviceLEDStateTrue:Device24" repeatrate="0" condition="$NumDevices >= 24" >
+		        <parameter name="DeviceID" type="string" default="%%Device24%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device24%% State Variable to False" export="SetDeviceLEDStateFalse:Device24" repeatrate="0" condition="$NumDevices >= 24" >
+		        <parameter name="DeviceID" type="string" default="%%Device24%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device25%% State Variable to True" export="SetDeviceLEDStateTrue:Device25" repeatrate="0" condition="$NumDevices >= 25" >
+		        <parameter name="DeviceID" type="string" default="%%Device25%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device25%% State Variable to False" export="SetDeviceLEDStateFalse:Device25" repeatrate="0" condition="$NumDevices >= 25" >
+		        <parameter name="DeviceID" type="string" default="%%Device25%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device26%% State Variable to True" export="SetDeviceLEDStateTrue:Device26" repeatrate="0" condition="$NumDevices >= 26" >
+		        <parameter name="DeviceID" type="string" default="%%Device26%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device26%% State Variable to False" export="SetDeviceLEDStateFalse:Device26" repeatrate="0" condition="$NumDevices >= 26" >
+		        <parameter name="DeviceID" type="string" default="%%Device26%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device27%% State Variable to True" export="SetDeviceLEDStateTrue:Device27" repeatrate="0" condition="$NumDevices >= 27" >
+		        <parameter name="DeviceID" type="string" default="%%Device27%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device27%% State Variable to False" export="SetDeviceLEDStateFalse:Device27" repeatrate="0" condition="$NumDevices >= 27" >
+		        <parameter name="DeviceID" type="string" default="%%Device27%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device28%% State Variable to True" export="SetDeviceLEDStateTrue:Device28" repeatrate="0" condition="$NumDevices >= 28" >
+		        <parameter name="DeviceID" type="string" default="%%Device28%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device28%% State Variable to False" export="SetDeviceLEDStateFalse:Device28" repeatrate="0" condition="$NumDevices >= 28" >
+		        <parameter name="DeviceID" type="string" default="%%Device28%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device29%% State Variable to True" export="SetDeviceLEDStateTrue:Device29" repeatrate="0" condition="$NumDevices >= 29" >
+		        <parameter name="DeviceID" type="string" default="%%Device29%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device29%% State Variable to False" export="SetDeviceLEDStateFalse:Device29" repeatrate="0" condition="$NumDevices >= 29" >
+		        <parameter name="DeviceID" type="string" default="%%Device29%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device30%% State Variable to True" export="SetDeviceLEDStateTrue:Device30" repeatrate="0" condition="$NumDevices >= 30" >
+		        <parameter name="DeviceID" type="string" default="%%Device30%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device30%% State Variable to False" export="SetDeviceLEDStateFalse:Device30" repeatrate="0" condition="$NumDevices >= 30" >
+		        <parameter name="DeviceID" type="string" default="%%Device30%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device31%% State Variable to True" export="SetDeviceLEDStateTrue:Device31" repeatrate="0" condition="$NumDevices >= 31" >
+		        <parameter name="DeviceID" type="string" default="%%Device31%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device31%% State Variable to False" export="SetDeviceLEDStateFalse:Device31" repeatrate="0" condition="$NumDevices >= 31" >
+		        <parameter name="DeviceID" type="string" default="%%Device31%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device32%% State Variable to True" export="SetDeviceLEDStateTrue:Device32" repeatrate="0" condition="$NumDevices >= 32" >
+		        <parameter name="DeviceID" type="string" default="%%Device32%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device32%% State Variable to False" export="SetDeviceLEDStateFalse:Device32" repeatrate="0" condition="$NumDevices >= 32" >
+		        <parameter name="DeviceID" type="string" default="%%Device32%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device33%% State Variable to True" export="SetDeviceLEDStateTrue:Device33" repeatrate="0" condition="$NumDevices >= 33" >
+		        <parameter name="DeviceID" type="string" default="%%Device33%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device33%% State Variable to False" export="SetDeviceLEDStateFalse:Device33" repeatrate="0" condition="$NumDevices >= 33" >
+		        <parameter name="DeviceID" type="string" default="%%Device33%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device34%% State Variable to True" export="SetDeviceLEDStateTrue:Device34" repeatrate="0" condition="$NumDevices >= 34" >
+		        <parameter name="DeviceID" type="string" default="%%Device34%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device34%% State Variable to False" export="SetDeviceLEDStateFalse:Device34" repeatrate="0" condition="$NumDevices >= 34" >
+		        <parameter name="DeviceID" type="string" default="%%Device34%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device35%% State Variable to True" export="SetDeviceLEDStateTrue:Device35" repeatrate="0" condition="$NumDevices >= 35" >
+		        <parameter name="DeviceID" type="string" default="%%Device35%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device35%% State Variable to False" export="SetDeviceLEDStateFalse:Device35" repeatrate="0" condition="$NumDevices >= 35" >
+		        <parameter name="DeviceID" type="string" default="%%Device35%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device36%% State Variable to True" export="SetDeviceLEDStateTrue:Device36" repeatrate="0" condition="$NumDevices >= 36" >
+		        <parameter name="DeviceID" type="string" default="%%Device36%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device36%% State Variable to False" export="SetDeviceLEDStateFalse:Device36" repeatrate="0" condition="$NumDevices >= 36" >
+		        <parameter name="DeviceID" type="string" default="%%Device36%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device37%% State Variable to True" export="SetDeviceLEDStateTrue:Device37" repeatrate="0" condition="$NumDevices >= 37" >
+		        <parameter name="DeviceID" type="string" default="%%Device37%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device37%% State Variable to False" export="SetDeviceLEDStateFalse:Device37" repeatrate="0" condition="$NumDevices >= 37" >
+		        <parameter name="DeviceID" type="string" default="%%Device37%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device38%% State Variable to True" export="SetDeviceLEDStateTrue:Device38" repeatrate="0" condition="$NumDevices >= 38" >
+		        <parameter name="DeviceID" type="string" default="%%Device38%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device38%% State Variable to False" export="SetDeviceLEDStateFalse:Device38" repeatrate="0" condition="$NumDevices >= 38" >
+		        <parameter name="DeviceID" type="string" default="%%Device38%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device39%% State Variable to True" export="SetDeviceLEDStateTrue:Device39" repeatrate="0" condition="$NumDevices >= 39" >
+		        <parameter name="DeviceID" type="string" default="%%Device39%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device39%% State Variable to False" export="SetDeviceLEDStateFalse:Device39" repeatrate="0" condition="$NumDevices >= 39" >
+		        <parameter name="DeviceID" type="string" default="%%Device39%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device40%% State Variable to True" export="SetDeviceLEDStateTrue:Device40" repeatrate="0" condition="$NumDevices >= 40" >
+		        <parameter name="DeviceID" type="string" default="%%Device40%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device40%% State Variable to False" export="SetDeviceLEDStateFalse:Device40" repeatrate="0" condition="$NumDevices >= 40" >
+		        <parameter name="DeviceID" type="string" default="%%Device40%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device41%% State Variable to True" export="SetDeviceLEDStateTrue:Device41" repeatrate="0" condition="$NumDevices >= 41" >
+		        <parameter name="DeviceID" type="string" default="%%Device41%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device41%% State Variable to False" export="SetDeviceLEDStateFalse:Device41" repeatrate="0" condition="$NumDevices >= 41" >
+		        <parameter name="DeviceID" type="string" default="%%Device41%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device42%% State Variable to True" export="SetDeviceLEDStateTrue:Device42" repeatrate="0" condition="$NumDevices >= 42" >
+		        <parameter name="DeviceID" type="string" default="%%Device42%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device42%% State Variable to False" export="SetDeviceLEDStateFalse:Device42" repeatrate="0" condition="$NumDevices >= 42" >
+		        <parameter name="DeviceID" type="string" default="%%Device42%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device43%% State Variable to True" export="SetDeviceLEDStateTrue:Device43" repeatrate="0" condition="$NumDevices >= 43" >
+		        <parameter name="DeviceID" type="string" default="%%Device43%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device43%% State Variable to False" export="SetDeviceLEDStateFalse:Device43" repeatrate="0" condition="$NumDevices >= 43" >
+		        <parameter name="DeviceID" type="string" default="%%Device43%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device44%% State Variable to True" export="SetDeviceLEDStateTrue:Device44" repeatrate="0" condition="$NumDevices >= 44" >
+		        <parameter name="DeviceID" type="string" default="%%Device44%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device44%% State Variable to False" export="SetDeviceLEDStateFalse:Device44" repeatrate="0" condition="$NumDevices >= 44" >
+		        <parameter name="DeviceID" type="string" default="%%Device44%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device45%% State Variable to True" export="SetDeviceLEDStateTrue:Device45" repeatrate="0" condition="$NumDevices >= 45" >
+		        <parameter name="DeviceID" type="string" default="%%Device45%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device45%% State Variable to False" export="SetDeviceLEDStateFalse:Device45" repeatrate="0" condition="$NumDevices >= 45" >
+		        <parameter name="DeviceID" type="string" default="%%Device45%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device46%% State Variable to True" export="SetDeviceLEDStateTrue:Device46" repeatrate="0" condition="$NumDevices >= 46" >
+		        <parameter name="DeviceID" type="string" default="%%Device46%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device46%% State Variable to False" export="SetDeviceLEDStateFalse:Device46" repeatrate="0" condition="$NumDevices >= 46" >
+		        <parameter name="DeviceID" type="string" default="%%Device46%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device47%% State Variable to True" export="SetDeviceLEDStateTrue:Device47" repeatrate="0" condition="$NumDevices >= 47" >
+		        <parameter name="DeviceID" type="string" default="%%Device47%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device47%% State Variable to False" export="SetDeviceLEDStateFalse:Device47" repeatrate="0" condition="$NumDevices >= 47" >
+		        <parameter name="DeviceID" type="string" default="%%Device47%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device48%% State Variable to True" export="SetDeviceLEDStateTrue:Device48" repeatrate="0" condition="$NumDevices >= 48" >
+		        <parameter name="DeviceID" type="string" default="%%Device48%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device48%% State Variable to False" export="SetDeviceLEDStateFalse:Device48" repeatrate="0" condition="$NumDevices >= 48" >
+		        <parameter name="DeviceID" type="string" default="%%Device48%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device49%% State Variable to True" export="SetDeviceLEDStateTrue:Device49" repeatrate="0" condition="$NumDevices >= 49" >
+		        <parameter name="DeviceID" type="string" default="%%Device49%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device49%% State Variable to False" export="SetDeviceLEDStateFalse:Device49" repeatrate="0" condition="$NumDevices >= 49" >
+		        <parameter name="DeviceID" type="string" default="%%Device49%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device50%% State Variable to True" export="SetDeviceLEDStateTrue:Device50" repeatrate="0" condition="$NumDevices >= 50" >
+		        <parameter name="DeviceID" type="string" default="%%Device50%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device50%% State Variable to False" export="SetDeviceLEDStateFalse:Device50" repeatrate="0" condition="$NumDevices >= 50" >
+		        <parameter name="DeviceID" type="string" default="%%Device50%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device51%% State Variable to True" export="SetDeviceLEDStateTrue:Device51" repeatrate="0" condition="$NumDevices >= 51" >
+		        <parameter name="DeviceID" type="string" default="%%Device51%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device51%% State Variable to False" export="SetDeviceLEDStateFalse:Device51" repeatrate="0" condition="$NumDevices >= 51" >
+		        <parameter name="DeviceID" type="string" default="%%Device51%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device52%% State Variable to True" export="SetDeviceLEDStateTrue:Device52" repeatrate="0" condition="$NumDevices >= 52" >
+		        <parameter name="DeviceID" type="string" default="%%Device52%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device52%% State Variable to False" export="SetDeviceLEDStateFalse:Device52" repeatrate="0" condition="$NumDevices >= 52" >
+		        <parameter name="DeviceID" type="string" default="%%Device52%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device53%% State Variable to True" export="SetDeviceLEDStateTrue:Device53" repeatrate="0" condition="$NumDevices >= 53" >
+		        <parameter name="DeviceID" type="string" default="%%Device53%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device53%% State Variable to False" export="SetDeviceLEDStateFalse:Device53" repeatrate="0" condition="$NumDevices >= 53" >
+		        <parameter name="DeviceID" type="string" default="%%Device53%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device54%% State Variable to True" export="SetDeviceLEDStateTrue:Device54" repeatrate="0" condition="$NumDevices >= 54" >
+		        <parameter name="DeviceID" type="string" default="%%Device54%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device54%% State Variable to False" export="SetDeviceLEDStateFalse:Device54" repeatrate="0" condition="$NumDevices >= 54" >
+		        <parameter name="DeviceID" type="string" default="%%Device54%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device55%% State Variable to True" export="SetDeviceLEDStateTrue:Device55" repeatrate="0" condition="$NumDevices >= 55" >
+		        <parameter name="DeviceID" type="string" default="%%Device55%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device55%% State Variable to False" export="SetDeviceLEDStateFalse:Device55" repeatrate="0" condition="$NumDevices >= 55" >
+		        <parameter name="DeviceID" type="string" default="%%Device55%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device56%% State Variable to True" export="SetDeviceLEDStateTrue:Device56" repeatrate="0" condition="$NumDevices >= 56" >
+		        <parameter name="DeviceID" type="string" default="%%Device56%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device56%% State Variable to False" export="SetDeviceLEDStateFalse:Device56" repeatrate="0" condition="$NumDevices >= 56" >
+		        <parameter name="DeviceID" type="string" default="%%Device56%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device57%% State Variable to True" export="SetDeviceLEDStateTrue:Device57" repeatrate="0" condition="$NumDevices >= 57" >
+		        <parameter name="DeviceID" type="string" default="%%Device57%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device57%% State Variable to False" export="SetDeviceLEDStateFalse:Device57" repeatrate="0" condition="$NumDevices >= 57" >
+		        <parameter name="DeviceID" type="string" default="%%Device57%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device58%% State Variable to True" export="SetDeviceLEDStateTrue:Device58" repeatrate="0" condition="$NumDevices >= 58" >
+		        <parameter name="DeviceID" type="string" default="%%Device58%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device58%% State Variable to False" export="SetDeviceLEDStateFalse:Device58" repeatrate="0" condition="$NumDevices >= 58" >
+		        <parameter name="DeviceID" type="string" default="%%Device58%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device59%% State Variable to True" export="SetDeviceLEDStateTrue:Device59" repeatrate="0" condition="$NumDevices >= 59" >
+		        <parameter name="DeviceID" type="string" default="%%Device59%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device59%% State Variable to False" export="SetDeviceLEDStateFalse:Device59" repeatrate="0" condition="$NumDevices >= 59" >
+		        <parameter name="DeviceID" type="string" default="%%Device59%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device60%% State Variable to True" export="SetDeviceLEDStateTrue:Device60" repeatrate="0" condition="$NumDevices >= 60" >
+		        <parameter name="DeviceID" type="string" default="%%Device60%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device60%% State Variable to False" export="SetDeviceLEDStateFalse:Device60" repeatrate="0" condition="$NumDevices >= 60" >
+		        <parameter name="DeviceID" type="string" default="%%Device60%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device61%% State Variable to True" export="SetDeviceLEDStateTrue:Device61" repeatrate="0" condition="$NumDevices >= 61" >
+		        <parameter name="DeviceID" type="string" default="%%Device61%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device61%% State Variable to False" export="SetDeviceLEDStateFalse:Device61" repeatrate="0" condition="$NumDevices >= 61" >
+		        <parameter name="DeviceID" type="string" default="%%Device61%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device62%% State Variable to True" export="SetDeviceLEDStateTrue:Device62" repeatrate="0" condition="$NumDevices >= 62" >
+		        <parameter name="DeviceID" type="string" default="%%Device62%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device62%% State Variable to False" export="SetDeviceLEDStateFalse:Device62" repeatrate="0" condition="$NumDevices >= 62" >
+		        <parameter name="DeviceID" type="string" default="%%Device62%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device63%% State Variable to True" export="SetDeviceLEDStateTrue:Device63" repeatrate="0" condition="$NumDevices >= 63" >
+		        <parameter name="DeviceID" type="string" default="%%Device63%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device63%% State Variable to False" export="SetDeviceLEDStateFalse:Device63" repeatrate="0" condition="$NumDevices >= 63" >
+		        <parameter name="DeviceID" type="string" default="%%Device63%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device64%% State Variable to True" export="SetDeviceLEDStateTrue:Device64" repeatrate="0" condition="$NumDevices >= 64" >
+		        <parameter name="DeviceID" type="string" default="%%Device64%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device64%% State Variable to False" export="SetDeviceLEDStateFalse:Device64" repeatrate="0" condition="$NumDevices >= 64" >
+		        <parameter name="DeviceID" type="string" default="%%Device64%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device65%% State Variable to True" export="SetDeviceLEDStateTrue:Device65" repeatrate="0" condition="$NumDevices >= 65" >
+		        <parameter name="DeviceID" type="string" default="%%Device65%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device65%% State Variable to False" export="SetDeviceLEDStateFalse:Device65" repeatrate="0" condition="$NumDevices >= 65" >
+		        <parameter name="DeviceID" type="string" default="%%Device65%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device66%% State Variable to True" export="SetDeviceLEDStateTrue:Device66" repeatrate="0" condition="$NumDevices >= 66" >
+		        <parameter name="DeviceID" type="string" default="%%Device66%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device66%% State Variable to False" export="SetDeviceLEDStateFalse:Device66" repeatrate="0" condition="$NumDevices >= 66" >
+		        <parameter name="DeviceID" type="string" default="%%Device66%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device67%% State Variable to True" export="SetDeviceLEDStateTrue:Device67" repeatrate="0" condition="$NumDevices >= 67" >
+		        <parameter name="DeviceID" type="string" default="%%Device67%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device67%% State Variable to False" export="SetDeviceLEDStateFalse:Device67" repeatrate="0" condition="$NumDevices >= 67" >
+		        <parameter name="DeviceID" type="string" default="%%Device67%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device68%% State Variable to True" export="SetDeviceLEDStateTrue:Device68" repeatrate="0" condition="$NumDevices >= 68" >
+		        <parameter name="DeviceID" type="string" default="%%Device68%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device68%% State Variable to False" export="SetDeviceLEDStateFalse:Device68" repeatrate="0" condition="$NumDevices >= 68" >
+		        <parameter name="DeviceID" type="string" default="%%Device68%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device69%% State Variable to True" export="SetDeviceLEDStateTrue:Device69" repeatrate="0" condition="$NumDevices >= 69" >
+		        <parameter name="DeviceID" type="string" default="%%Device69%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device69%% State Variable to False" export="SetDeviceLEDStateFalse:Device69" repeatrate="0" condition="$NumDevices >= 69" >
+		        <parameter name="DeviceID" type="string" default="%%Device69%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device70%% State Variable to True" export="SetDeviceLEDStateTrue:Device70" repeatrate="0" condition="$NumDevices >= 70" >
+		        <parameter name="DeviceID" type="string" default="%%Device70%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device70%% State Variable to False" export="SetDeviceLEDStateFalse:Device70" repeatrate="0" condition="$NumDevices >= 70" >
+		        <parameter name="DeviceID" type="string" default="%%Device70%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device71%% State Variable to True" export="SetDeviceLEDStateTrue:Device71" repeatrate="0" condition="$NumDevices >= 71" >
+		        <parameter name="DeviceID" type="string" default="%%Device71%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device71%% State Variable to False" export="SetDeviceLEDStateFalse:Device71" repeatrate="0" condition="$NumDevices >= 71" >
+		        <parameter name="DeviceID" type="string" default="%%Device71%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device72%% State Variable to True" export="SetDeviceLEDStateTrue:Device72" repeatrate="0" condition="$NumDevices >= 72" >
+		        <parameter name="DeviceID" type="string" default="%%Device72%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device72%% State Variable to False" export="SetDeviceLEDStateFalse:Device72" repeatrate="0" condition="$NumDevices >= 72" >
+		        <parameter name="DeviceID" type="string" default="%%Device72%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device73%% State Variable to True" export="SetDeviceLEDStateTrue:Device73" repeatrate="0" condition="$NumDevices >= 73" >
+		        <parameter name="DeviceID" type="string" default="%%Device73%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device73%% State Variable to False" export="SetDeviceLEDStateFalse:Device73" repeatrate="0" condition="$NumDevices >= 73" >
+		        <parameter name="DeviceID" type="string" default="%%Device73%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device74%% State Variable to True" export="SetDeviceLEDStateTrue:Device74" repeatrate="0" condition="$NumDevices >= 74" >
+		        <parameter name="DeviceID" type="string" default="%%Device74%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device74%% State Variable to False" export="SetDeviceLEDStateFalse:Device74" repeatrate="0" condition="$NumDevices >= 74" >
+		        <parameter name="DeviceID" type="string" default="%%Device74%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device75%% State Variable to True" export="SetDeviceLEDStateTrue:Device75" repeatrate="0" condition="$NumDevices >= 75" >
+		        <parameter name="DeviceID" type="string" default="%%Device75%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device75%% State Variable to False" export="SetDeviceLEDStateFalse:Device75" repeatrate="0" condition="$NumDevices >= 75" >
+		        <parameter name="DeviceID" type="string" default="%%Device75%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device76%% State Variable to True" export="SetDeviceLEDStateTrue:Device76" repeatrate="0" condition="$NumDevices >= 76" >
+		        <parameter name="DeviceID" type="string" default="%%Device76%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device76%% State Variable to False" export="SetDeviceLEDStateFalse:Device76" repeatrate="0" condition="$NumDevices >= 76" >
+		        <parameter name="DeviceID" type="string" default="%%Device76%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device77%% State Variable to True" export="SetDeviceLEDStateTrue:Device77" repeatrate="0" condition="$NumDevices >= 77" >
+		        <parameter name="DeviceID" type="string" default="%%Device77%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device77%% State Variable to False" export="SetDeviceLEDStateFalse:Device77" repeatrate="0" condition="$NumDevices >= 77" >
+		        <parameter name="DeviceID" type="string" default="%%Device77%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device78%% State Variable to True" export="SetDeviceLEDStateTrue:Device78" repeatrate="0" condition="$NumDevices >= 78" >
+		        <parameter name="DeviceID" type="string" default="%%Device78%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device78%% State Variable to False" export="SetDeviceLEDStateFalse:Device78" repeatrate="0" condition="$NumDevices >= 78" >
+		        <parameter name="DeviceID" type="string" default="%%Device78%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device79%% State Variable to True" export="SetDeviceLEDStateTrue:Device79" repeatrate="0" condition="$NumDevices >= 79" >
+		        <parameter name="DeviceID" type="string" default="%%Device79%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device79%% State Variable to False" export="SetDeviceLEDStateFalse:Device79" repeatrate="0" condition="$NumDevices >= 79" >
+		        <parameter name="DeviceID" type="string" default="%%Device79%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device80%% State Variable to True" export="SetDeviceLEDStateTrue:Device80" repeatrate="0" condition="$NumDevices >= 80" >
+		        <parameter name="DeviceID" type="string" default="%%Device80%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device80%% State Variable to False" export="SetDeviceLEDStateFalse:Device80" repeatrate="0" condition="$NumDevices >= 80" >
+		        <parameter name="DeviceID" type="string" default="%%Device80%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device81%% State Variable to True" export="SetDeviceLEDStateTrue:Device81" repeatrate="0" condition="$NumDevices >= 81" >
+		        <parameter name="DeviceID" type="string" default="%%Device81%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device81%% State Variable to False" export="SetDeviceLEDStateFalse:Device81" repeatrate="0" condition="$NumDevices >= 81" >
+		        <parameter name="DeviceID" type="string" default="%%Device81%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device82%% State Variable to True" export="SetDeviceLEDStateTrue:Device82" repeatrate="0" condition="$NumDevices >= 82" >
+		        <parameter name="DeviceID" type="string" default="%%Device82%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device82%% State Variable to False" export="SetDeviceLEDStateFalse:Device82" repeatrate="0" condition="$NumDevices >= 82" >
+		        <parameter name="DeviceID" type="string" default="%%Device82%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device83%% State Variable to True" export="SetDeviceLEDStateTrue:Device83" repeatrate="0" condition="$NumDevices >= 83" >
+		        <parameter name="DeviceID" type="string" default="%%Device83%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device83%% State Variable to False" export="SetDeviceLEDStateFalse:Device83" repeatrate="0" condition="$NumDevices >= 83" >
+		        <parameter name="DeviceID" type="string" default="%%Device83%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device84%% State Variable to True" export="SetDeviceLEDStateTrue:Device84" repeatrate="0" condition="$NumDevices >= 84" >
+		        <parameter name="DeviceID" type="string" default="%%Device84%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device84%% State Variable to False" export="SetDeviceLEDStateFalse:Device84" repeatrate="0" condition="$NumDevices >= 84" >
+		        <parameter name="DeviceID" type="string" default="%%Device84%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device85%% State Variable to True" export="SetDeviceLEDStateTrue:Device85" repeatrate="0" condition="$NumDevices >= 85" >
+		        <parameter name="DeviceID" type="string" default="%%Device85%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device85%% State Variable to False" export="SetDeviceLEDStateFalse:Device85" repeatrate="0" condition="$NumDevices >= 85" >
+		        <parameter name="DeviceID" type="string" default="%%Device85%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device86%% State Variable to True" export="SetDeviceLEDStateTrue:Device86" repeatrate="0" condition="$NumDevices >= 86" >
+		        <parameter name="DeviceID" type="string" default="%%Device86%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device86%% State Variable to False" export="SetDeviceLEDStateFalse:Device86" repeatrate="0" condition="$NumDevices >= 86" >
+		        <parameter name="DeviceID" type="string" default="%%Device86%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device87%% State Variable to True" export="SetDeviceLEDStateTrue:Device87" repeatrate="0" condition="$NumDevices >= 87" >
+		        <parameter name="DeviceID" type="string" default="%%Device87%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device87%% State Variable to False" export="SetDeviceLEDStateFalse:Device87" repeatrate="0" condition="$NumDevices >= 87" >
+		        <parameter name="DeviceID" type="string" default="%%Device87%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device88%% State Variable to True" export="SetDeviceLEDStateTrue:Device88" repeatrate="0" condition="$NumDevices >= 88" >
+		        <parameter name="DeviceID" type="string" default="%%Device88%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device88%% State Variable to False" export="SetDeviceLEDStateFalse:Device88" repeatrate="0" condition="$NumDevices >= 88" >
+		        <parameter name="DeviceID" type="string" default="%%Device88%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device89%% State Variable to True" export="SetDeviceLEDStateTrue:Device89" repeatrate="0" condition="$NumDevices >= 89" >
+		        <parameter name="DeviceID" type="string" default="%%Device89%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device89%% State Variable to False" export="SetDeviceLEDStateFalse:Device89" repeatrate="0" condition="$NumDevices >= 89" >
+		        <parameter name="DeviceID" type="string" default="%%Device89%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device90%% State Variable to True" export="SetDeviceLEDStateTrue:Device90" repeatrate="0" condition="$NumDevices >= 90" >
+		        <parameter name="DeviceID" type="string" default="%%Device90%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device90%% State Variable to False" export="SetDeviceLEDStateFalse:Device90" repeatrate="0" condition="$NumDevices >= 90" >
+		        <parameter name="DeviceID" type="string" default="%%Device90%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device91%% State Variable to True" export="SetDeviceLEDStateTrue:Device91" repeatrate="0" condition="$NumDevices >= 91" >
+		        <parameter name="DeviceID" type="string" default="%%Device91%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device91%% State Variable to False" export="SetDeviceLEDStateFalse:Device91" repeatrate="0" condition="$NumDevices >= 91" >
+		        <parameter name="DeviceID" type="string" default="%%Device91%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device92%% State Variable to True" export="SetDeviceLEDStateTrue:Device92" repeatrate="0" condition="$NumDevices >= 92" >
+		        <parameter name="DeviceID" type="string" default="%%Device92%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device92%% State Variable to False" export="SetDeviceLEDStateFalse:Device92" repeatrate="0" condition="$NumDevices >= 92" >
+		        <parameter name="DeviceID" type="string" default="%%Device92%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device93%% State Variable to True" export="SetDeviceLEDStateTrue:Device93" repeatrate="0" condition="$NumDevices >= 93" >
+		        <parameter name="DeviceID" type="string" default="%%Device93%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device93%% State Variable to False" export="SetDeviceLEDStateFalse:Device93" repeatrate="0" condition="$NumDevices >= 93" >
+		        <parameter name="DeviceID" type="string" default="%%Device93%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device94%% State Variable to True" export="SetDeviceLEDStateTrue:Device94" repeatrate="0" condition="$NumDevices >= 94" >
+		        <parameter name="DeviceID" type="string" default="%%Device94%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device94%% State Variable to False" export="SetDeviceLEDStateFalse:Device94" repeatrate="0" condition="$NumDevices >= 94" >
+		        <parameter name="DeviceID" type="string" default="%%Device94%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device95%% State Variable to True" export="SetDeviceLEDStateTrue:Device95" repeatrate="0" condition="$NumDevices >= 95" >
+		        <parameter name="DeviceID" type="string" default="%%Device95%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device95%% State Variable to False" export="SetDeviceLEDStateFalse:Device95" repeatrate="0" condition="$NumDevices >= 95" >
+		        <parameter name="DeviceID" type="string" default="%%Device95%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device96%% State Variable to True" export="SetDeviceLEDStateTrue:Device96" repeatrate="0" condition="$NumDevices >= 96" >
+		        <parameter name="DeviceID" type="string" default="%%Device96%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device96%% State Variable to False" export="SetDeviceLEDStateFalse:Device96" repeatrate="0" condition="$NumDevices >= 96" >
+		        <parameter name="DeviceID" type="string" default="%%Device96%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device97%% State Variable to True" export="SetDeviceLEDStateTrue:Device97" repeatrate="0" condition="$NumDevices >= 97" >
+		        <parameter name="DeviceID" type="string" default="%%Device97%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device97%% State Variable to False" export="SetDeviceLEDStateFalse:Device97" repeatrate="0" condition="$NumDevices >= 97" >
+		        <parameter name="DeviceID" type="string" default="%%Device97%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device98%% State Variable to True" export="SetDeviceLEDStateTrue:Device98" repeatrate="0" condition="$NumDevices >= 98" >
+		        <parameter name="DeviceID" type="string" default="%%Device98%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device98%% State Variable to False" export="SetDeviceLEDStateFalse:Device98" repeatrate="0" condition="$NumDevices >= 98" >
+		        <parameter name="DeviceID" type="string" default="%%Device98%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device99%% State Variable to True" export="SetDeviceLEDStateTrue:Device99" repeatrate="0" condition="$NumDevices >= 99" >
+		        <parameter name="DeviceID" type="string" default="%%Device99%%" hidden="true" />
+		</function>
+		<function name="Set LED %%Device99%% State Variable to False" export="SetDeviceLEDStateFalse:Device99" repeatrate="0" condition="$NumDevices >= 99" >
+		        <parameter name="DeviceID" type="string" default="%%Device99%%" hidden="true" />
+		</function>
+
+	</category>
+</functions>
